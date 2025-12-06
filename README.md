@@ -80,3 +80,12 @@ Step
 2. Enter Folder,cd insight-prediksi_panen_nasional,Navigates to the project directory.
 3. Install Dependencies,pip install -r requirements.txt,Installs all required Python libraries.
 4. Run App,streamlit run app.py,The application will open in your browser at http://localhost:8501.
+
+# 1. Navigasi ke folder proyek
+cd "C:\Users\adhim\OneDrive\Dokumen\Kuliah\SEMESTER 5\Pemrosesan dan Instratruktur Data\Coding\Project_1"
+# 2. Tambahkan perubahan (file requirements.txt yang sudah diperbaiki)
+git add .
+# 3. Commit perubahan
+git commit -m "fix: Add joblib, numpy, and plotly to requirements.txt to resolve ModuleNotFoundError"
+# 4. Push ke GitHub
+git push origin main
