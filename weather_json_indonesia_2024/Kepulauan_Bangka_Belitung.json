@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Kepulauan Bangka Belitung",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":25.7483870968,
+        "suhu_maksimum_c":29.135483871,
+        "suhu_minimum_c":23.6774193548,
+        "kelembapan_rata_rata_persen":92.2903225806,
+        "curah_hujan_mm":559.3,
+        "kecepatan_angin_maks_kmh":12.4548387097,
+        "radiasi_matahari_mj":15.385483871
+    },
+    {
+        "provinsi":"Kepulauan Bangka Belitung",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":26.1724137931,
+        "suhu_maksimum_c":29.9275862069,
+        "suhu_minimum_c":23.724137931,
+        "kelembapan_rata_rata_persen":90.3448275862,
+        "curah_hujan_mm":402.6,
+        "kecepatan_angin_maks_kmh":12.8068965517,
+        "radiasi_matahari_mj":18.6072413793
+    },
+    {
+        "provinsi":"Kepulauan Bangka Belitung",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":26.7580645161,
+        "suhu_maksimum_c":30.2516129032,
+        "suhu_minimum_c":24.2677419355,
+        "kelembapan_rata_rata_persen":89.1290322581,
+        "curah_hujan_mm":306.8,
+        "kecepatan_angin_maks_kmh":13.5129032258,
+        "radiasi_matahari_mj":19.0551612903
+    },
+    {
+        "provinsi":"Kepulauan Bangka Belitung",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":26.9366666667,
+        "suhu_maksimum_c":30.6333333333,
+        "suhu_minimum_c":24.4233333333,
+        "kelembapan_rata_rata_persen":91.1,
+        "curah_hujan_mm":454.3,
+        "kecepatan_angin_maks_kmh":10.02,
+        "radiasi_matahari_mj":18.2856666667
+    },
+    {
+        "provinsi":"Kepulauan Bangka Belitung",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":27.5,
+        "suhu_maksimum_c":30.6483870968,
+        "suhu_minimum_c":25.1161290323,
+        "kelembapan_rata_rata_persen":88.1935483871,
+        "curah_hujan_mm":277.0,
+        "kecepatan_angin_maks_kmh":14.4290322581,
+        "radiasi_matahari_mj":17.9535483871
+    },
+    {
+        "provinsi":"Kepulauan Bangka Belitung",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":26.7333333333,
+        "suhu_maksimum_c":29.9133333333,
+        "suhu_minimum_c":24.2733333333,
+        "kelembapan_rata_rata_persen":88.7666666667,
+        "curah_hujan_mm":204.4,
+        "kecepatan_angin_maks_kmh":12.28,
+        "radiasi_matahari_mj":17.232
+    },
+    {
+        "provinsi":"Kepulauan Bangka Belitung",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":26.9967741935,
+        "suhu_maksimum_c":30.164516129,
+        "suhu_minimum_c":24.4129032258,
+        "kelembapan_rata_rata_persen":82.5483870968,
+        "curah_hujan_mm":105.0,
+        "kecepatan_angin_maks_kmh":15.6677419355,
+        "radiasi_matahari_mj":19.0393548387
+    },
+    {
+        "provinsi":"Kepulauan Bangka Belitung",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":27.6483870968,
+        "suhu_maksimum_c":31.0709677419,
+        "suhu_minimum_c":24.4774193548,
+        "kelembapan_rata_rata_persen":77.064516129,
+        "curah_hujan_mm":54.3,
+        "kecepatan_angin_maks_kmh":18.3096774194,
+        "radiasi_matahari_mj":19.1835483871
+    },
+    {
+        "provinsi":"Kepulauan Bangka Belitung",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":27.7066666667,
+        "suhu_maksimum_c":31.8566666667,
+        "suhu_minimum_c":24.64,
+        "kelembapan_rata_rata_persen":79.3666666667,
+        "curah_hujan_mm":138.0,
+        "kecepatan_angin_maks_kmh":15.9533333333,
+        "radiasi_matahari_mj":19.7483333333
+    },
+    {
+        "provinsi":"Kepulauan Bangka Belitung",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":27.635483871,
+        "suhu_maksimum_c":31.6032258065,
+        "suhu_minimum_c":24.6516129032,
+        "kelembapan_rata_rata_persen":81.5483870968,
+        "curah_hujan_mm":117.2,
+        "kecepatan_angin_maks_kmh":13.6387096774,
+        "radiasi_matahari_mj":20.0883870968
+    },
+    {
+        "provinsi":"Kepulauan Bangka Belitung",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":26.3533333333,
+        "suhu_maksimum_c":30.14,
+        "suhu_minimum_c":23.7766666667,
+        "kelembapan_rata_rata_persen":89.8333333333,
+        "curah_hujan_mm":425.4,
+        "kecepatan_angin_maks_kmh":9.91,
+        "radiasi_matahari_mj":16.8753333333
+    },
+    {
+        "provinsi":"Kepulauan Bangka Belitung",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":26.5419354839,
+        "suhu_maksimum_c":29.8580645161,
+        "suhu_minimum_c":24.1838709677,
+        "kelembapan_rata_rata_persen":88.7096774194,
+        "curah_hujan_mm":326.6,
+        "kecepatan_angin_maks_kmh":14.1387096774,
+        "radiasi_matahari_mj":16.3390322581
+    }
+]

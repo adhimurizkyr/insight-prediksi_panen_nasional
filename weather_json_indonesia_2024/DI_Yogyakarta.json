@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"DI Yogyakarta",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":25.6258064516,
+        "suhu_maksimum_c":29.335483871,
+        "suhu_minimum_c":23.1032258065,
+        "kelembapan_rata_rata_persen":87.4193548387,
+        "curah_hujan_mm":391.9,
+        "kecepatan_angin_maks_kmh":13.5580645161,
+        "radiasi_matahari_mj":17.2441935484
+    },
+    {
+        "provinsi":"DI Yogyakarta",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":26.0827586207,
+        "suhu_maksimum_c":30.0172413793,
+        "suhu_minimum_c":23.1793103448,
+        "kelembapan_rata_rata_persen":86.4482758621,
+        "curah_hujan_mm":287.7,
+        "kecepatan_angin_maks_kmh":11.8275862069,
+        "radiasi_matahari_mj":19.1634482759
+    },
+    {
+        "provinsi":"DI Yogyakarta",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":26.2709677419,
+        "suhu_maksimum_c":30.2870967742,
+        "suhu_minimum_c":23.464516129,
+        "kelembapan_rata_rata_persen":85.8709677419,
+        "curah_hujan_mm":303.9,
+        "kecepatan_angin_maks_kmh":12.5,
+        "radiasi_matahari_mj":19.2138709677
+    },
+    {
+        "provinsi":"DI Yogyakarta",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":26.4366666667,
+        "suhu_maksimum_c":30.49,
+        "suhu_minimum_c":23.7233333333,
+        "kelembapan_rata_rata_persen":87.0666666667,
+        "curah_hujan_mm":312.8,
+        "kecepatan_angin_maks_kmh":11.32,
+        "radiasi_matahari_mj":17.999
+    },
+    {
+        "provinsi":"DI Yogyakarta",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":26.1903225806,
+        "suhu_maksimum_c":30.7322580645,
+        "suhu_minimum_c":22.6225806452,
+        "kelembapan_rata_rata_persen":83.6774193548,
+        "curah_hujan_mm":135.5,
+        "kecepatan_angin_maks_kmh":11.1193548387,
+        "radiasi_matahari_mj":19.2577419355
+    },
+    {
+        "provinsi":"DI Yogyakarta",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":26.0066666667,
+        "suhu_maksimum_c":30.9033333333,
+        "suhu_minimum_c":22.2966666667,
+        "kelembapan_rata_rata_persen":81.2333333333,
+        "curah_hujan_mm":53.9,
+        "kecepatan_angin_maks_kmh":12.1133333333,
+        "radiasi_matahari_mj":18.2413333333
+    },
+    {
+        "provinsi":"DI Yogyakarta",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":24.9967741935,
+        "suhu_maksimum_c":30.7032258065,
+        "suhu_minimum_c":20.4161290323,
+        "kelembapan_rata_rata_persen":76.8709677419,
+        "curah_hujan_mm":44.0,
+        "kecepatan_angin_maks_kmh":15.5322580645,
+        "radiasi_matahari_mj":18.0829032258
+    },
+    {
+        "provinsi":"DI Yogyakarta",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":25.0548387097,
+        "suhu_maksimum_c":31.2193548387,
+        "suhu_minimum_c":20.6741935484,
+        "kelembapan_rata_rata_persen":74.8709677419,
+        "curah_hujan_mm":25.9,
+        "kecepatan_angin_maks_kmh":17.764516129,
+        "radiasi_matahari_mj":19.9670967742
+    },
+    {
+        "provinsi":"DI Yogyakarta",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":25.9166666667,
+        "suhu_maksimum_c":31.81,
+        "suhu_minimum_c":21.6566666667,
+        "kelembapan_rata_rata_persen":76.7333333333,
+        "curah_hujan_mm":86.0,
+        "kecepatan_angin_maks_kmh":15.6366666667,
+        "radiasi_matahari_mj":21.1503333333
+    },
+    {
+        "provinsi":"DI Yogyakarta",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":26.7225806452,
+        "suhu_maksimum_c":32.2322580645,
+        "suhu_minimum_c":22.5967741935,
+        "kelembapan_rata_rata_persen":75.7741935484,
+        "curah_hujan_mm":110.6,
+        "kecepatan_angin_maks_kmh":15.5096774194,
+        "radiasi_matahari_mj":21.9970967742
+    },
+    {
+        "provinsi":"DI Yogyakarta",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":25.9466666667,
+        "suhu_maksimum_c":30.7633333333,
+        "suhu_minimum_c":23.1766666667,
+        "kelembapan_rata_rata_persen":86.8666666667,
+        "curah_hujan_mm":384.4,
+        "kecepatan_angin_maks_kmh":11.8366666667,
+        "radiasi_matahari_mj":19.2856666667
+    },
+    {
+        "provinsi":"DI Yogyakarta",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":25.8096774194,
+        "suhu_maksimum_c":30.1322580645,
+        "suhu_minimum_c":23.3903225806,
+        "kelembapan_rata_rata_persen":86.8387096774,
+        "curah_hujan_mm":381.6,
+        "kecepatan_angin_maks_kmh":12.8064516129,
+        "radiasi_matahari_mj":16.8383870968
+    }
+]

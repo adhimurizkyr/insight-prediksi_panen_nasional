@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Papua Tengah",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":9.3161290323,
+        "suhu_maksimum_c":13.2064516129,
+        "suhu_minimum_c":6.0580645161,
+        "kelembapan_rata_rata_persen":90.0,
+        "curah_hujan_mm":538.0,
+        "kecepatan_angin_maks_kmh":11.0483870968,
+        "radiasi_matahari_mj":16.5029032258
+    },
+    {
+        "provinsi":"Papua Tengah",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":9.2793103448,
+        "suhu_maksimum_c":13.3137931034,
+        "suhu_minimum_c":5.9689655172,
+        "kelembapan_rata_rata_persen":90.5862068966,
+        "curah_hujan_mm":395.0,
+        "kecepatan_angin_maks_kmh":10.8586206897,
+        "radiasi_matahari_mj":17.3524137931
+    },
+    {
+        "provinsi":"Papua Tengah",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":9.4935483871,
+        "suhu_maksimum_c":13.3161290323,
+        "suhu_minimum_c":6.7451612903,
+        "kelembapan_rata_rata_persen":91.6129032258,
+        "curah_hujan_mm":613.2,
+        "kecepatan_angin_maks_kmh":10.9677419355,
+        "radiasi_matahari_mj":16.3148387097
+    },
+    {
+        "provinsi":"Papua Tengah",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":9.5633333333,
+        "suhu_maksimum_c":13.6466666667,
+        "suhu_minimum_c":6.33,
+        "kelembapan_rata_rata_persen":91.0666666667,
+        "curah_hujan_mm":510.3,
+        "kecepatan_angin_maks_kmh":9.6866666667,
+        "radiasi_matahari_mj":17.5256666667
+    },
+    {
+        "provinsi":"Papua Tengah",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":9.5838709677,
+        "suhu_maksimum_c":13.7774193548,
+        "suhu_minimum_c":6.2548387097,
+        "kelembapan_rata_rata_persen":91.0,
+        "curah_hujan_mm":507.8,
+        "kecepatan_angin_maks_kmh":9.5741935484,
+        "radiasi_matahari_mj":15.9796774194
+    },
+    {
+        "provinsi":"Papua Tengah",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":8.56,
+        "suhu_maksimum_c":13.1666666667,
+        "suhu_minimum_c":4.1933333333,
+        "kelembapan_rata_rata_persen":90.9,
+        "curah_hujan_mm":330.8,
+        "kecepatan_angin_maks_kmh":9.2833333333,
+        "radiasi_matahari_mj":17.1793333333
+    },
+    {
+        "provinsi":"Papua Tengah",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":8.2322580645,
+        "suhu_maksimum_c":12.5612903226,
+        "suhu_minimum_c":4.1677419355,
+        "kelembapan_rata_rata_persen":91.4193548387,
+        "curah_hujan_mm":350.4,
+        "kecepatan_angin_maks_kmh":8.8387096774,
+        "radiasi_matahari_mj":16.6448387097
+    },
+    {
+        "provinsi":"Papua Tengah",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":8.264516129,
+        "suhu_maksimum_c":13.1064516129,
+        "suhu_minimum_c":3.9290322581,
+        "kelembapan_rata_rata_persen":90.6774193548,
+        "curah_hujan_mm":332.5,
+        "kecepatan_angin_maks_kmh":9.1741935484,
+        "radiasi_matahari_mj":20.3609677419
+    },
+    {
+        "provinsi":"Papua Tengah",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":8.5266666667,
+        "suhu_maksimum_c":13.0233333333,
+        "suhu_minimum_c":4.5566666667,
+        "kelembapan_rata_rata_persen":89.3666666667,
+        "curah_hujan_mm":302.1,
+        "kecepatan_angin_maks_kmh":9.7833333333,
+        "radiasi_matahari_mj":19.069
+    },
+    {
+        "provinsi":"Papua Tengah",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":8.5193548387,
+        "suhu_maksimum_c":12.6225806452,
+        "suhu_minimum_c":4.8483870968,
+        "kelembapan_rata_rata_persen":90.6774193548,
+        "curah_hujan_mm":387.7,
+        "kecepatan_angin_maks_kmh":9.5419354839,
+        "radiasi_matahari_mj":17.8970967742
+    },
+    {
+        "provinsi":"Papua Tengah",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":8.63,
+        "suhu_maksimum_c":14.3,
+        "suhu_minimum_c":4.35,
+        "kelembapan_rata_rata_persen":89.1,
+        "curah_hujan_mm":378.2,
+        "kecepatan_angin_maks_kmh":9.38,
+        "radiasi_matahari_mj":18.882
+    },
+    {
+        "provinsi":"Papua Tengah",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":9.1032258065,
+        "suhu_maksimum_c":14.8193548387,
+        "suhu_minimum_c":5.5806451613,
+        "kelembapan_rata_rata_persen":91.2580645161,
+        "curah_hujan_mm":484.2,
+        "kecepatan_angin_maks_kmh":9.2548387097,
+        "radiasi_matahari_mj":16.5832258065
+    }
+]

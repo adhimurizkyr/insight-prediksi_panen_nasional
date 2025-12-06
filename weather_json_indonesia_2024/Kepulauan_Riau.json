@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Kepulauan Riau",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":26.335483871,
+        "suhu_maksimum_c":28.4258064516,
+        "suhu_minimum_c":24.8677419355,
+        "kelembapan_rata_rata_persen":86.7741935484,
+        "curah_hujan_mm":311.1,
+        "kecepatan_angin_maks_kmh":18.8161290323,
+        "radiasi_matahari_mj":16.8635483871
+    },
+    {
+        "provinsi":"Kepulauan Riau",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":27.5068965517,
+        "suhu_maksimum_c":30.1724137931,
+        "suhu_minimum_c":25.6379310345,
+        "kelembapan_rata_rata_persen":80.3793103448,
+        "curah_hujan_mm":69.7,
+        "kecepatan_angin_maks_kmh":19.4965517241,
+        "radiasi_matahari_mj":21.5072413793
+    },
+    {
+        "provinsi":"Kepulauan Riau",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":28.2064516129,
+        "suhu_maksimum_c":31.3096774194,
+        "suhu_minimum_c":25.9193548387,
+        "kelembapan_rata_rata_persen":77.4516129032,
+        "curah_hujan_mm":79.9,
+        "kecepatan_angin_maks_kmh":16.9870967742,
+        "radiasi_matahari_mj":22.2429032258
+    },
+    {
+        "provinsi":"Kepulauan Riau",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":28.3566666667,
+        "suhu_maksimum_c":30.7566666667,
+        "suhu_minimum_c":26.1966666667,
+        "kelembapan_rata_rata_persen":82.4666666667,
+        "curah_hujan_mm":362.2,
+        "kecepatan_angin_maks_kmh":12.1266666667,
+        "radiasi_matahari_mj":20.274
+    },
+    {
+        "provinsi":"Kepulauan Riau",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":28.2967741935,
+        "suhu_maksimum_c":30.1967741935,
+        "suhu_minimum_c":26.4032258065,
+        "kelembapan_rata_rata_persen":83.935483871,
+        "curah_hujan_mm":203.8,
+        "kecepatan_angin_maks_kmh":14.5903225806,
+        "radiasi_matahari_mj":18.3374193548
+    },
+    {
+        "provinsi":"Kepulauan Riau",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":27.8666666667,
+        "suhu_maksimum_c":29.73,
+        "suhu_minimum_c":26.1166666667,
+        "kelembapan_rata_rata_persen":82.5,
+        "curah_hujan_mm":230.2,
+        "kecepatan_angin_maks_kmh":13.91,
+        "radiasi_matahari_mj":17.4913333333
+    },
+    {
+        "provinsi":"Kepulauan Riau",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":28.1032258065,
+        "suhu_maksimum_c":29.7935483871,
+        "suhu_minimum_c":26.5935483871,
+        "kelembapan_rata_rata_persen":78.7096774194,
+        "curah_hujan_mm":89.6,
+        "kecepatan_angin_maks_kmh":19.3225806452,
+        "radiasi_matahari_mj":19.3687096774
+    },
+    {
+        "provinsi":"Kepulauan Riau",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":27.5516129032,
+        "suhu_maksimum_c":29.4193548387,
+        "suhu_minimum_c":25.5419354839,
+        "kelembapan_rata_rata_persen":80.8387096774,
+        "curah_hujan_mm":141.9,
+        "kecepatan_angin_maks_kmh":17.9838709677,
+        "radiasi_matahari_mj":18.8458064516
+    },
+    {
+        "provinsi":"Kepulauan Riau",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":27.6233333333,
+        "suhu_maksimum_c":29.5466666667,
+        "suhu_minimum_c":25.8333333333,
+        "kelembapan_rata_rata_persen":82.2333333333,
+        "curah_hujan_mm":175.4,
+        "kecepatan_angin_maks_kmh":16.9833333333,
+        "radiasi_matahari_mj":19.2393333333
+    },
+    {
+        "provinsi":"Kepulauan Riau",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":27.4774193548,
+        "suhu_maksimum_c":29.3774193548,
+        "suhu_minimum_c":25.5709677419,
+        "kelembapan_rata_rata_persen":83.8387096774,
+        "curah_hujan_mm":146.1,
+        "kecepatan_angin_maks_kmh":13.6935483871,
+        "radiasi_matahari_mj":19.7761290323
+    },
+    {
+        "provinsi":"Kepulauan Riau",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":26.9066666667,
+        "suhu_maksimum_c":29.1233333333,
+        "suhu_minimum_c":25.04,
+        "kelembapan_rata_rata_persen":85.7,
+        "curah_hujan_mm":349.9,
+        "kecepatan_angin_maks_kmh":13.0666666667,
+        "radiasi_matahari_mj":17.772
+    },
+    {
+        "provinsi":"Kepulauan Riau",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":27.1548387097,
+        "suhu_maksimum_c":29.464516129,
+        "suhu_minimum_c":25.4419354839,
+        "kelembapan_rata_rata_persen":82.6774193548,
+        "curah_hujan_mm":176.0,
+        "kecepatan_angin_maks_kmh":18.3258064516,
+        "radiasi_matahari_mj":18.0806451613
+    }
+]

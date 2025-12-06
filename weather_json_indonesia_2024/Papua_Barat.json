@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Papua Barat",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":26.2193548387,
+        "suhu_maksimum_c":30.0161290323,
+        "suhu_minimum_c":23.9096774194,
+        "kelembapan_rata_rata_persen":86.4516129032,
+        "curah_hujan_mm":265.3,
+        "kecepatan_angin_maks_kmh":12.7516129032,
+        "radiasi_matahari_mj":17.5306451613
+    },
+    {
+        "provinsi":"Papua Barat",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":26.1137931034,
+        "suhu_maksimum_c":29.7,
+        "suhu_minimum_c":23.8517241379,
+        "kelembapan_rata_rata_persen":86.1034482759,
+        "curah_hujan_mm":332.2,
+        "kecepatan_angin_maks_kmh":12.8827586207,
+        "radiasi_matahari_mj":18.9696551724
+    },
+    {
+        "provinsi":"Papua Barat",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":26.5290322581,
+        "suhu_maksimum_c":30.3612903226,
+        "suhu_minimum_c":23.9838709677,
+        "kelembapan_rata_rata_persen":84.8387096774,
+        "curah_hujan_mm":268.4,
+        "kecepatan_angin_maks_kmh":13.4096774194,
+        "radiasi_matahari_mj":20.0693548387
+    },
+    {
+        "provinsi":"Papua Barat",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":26.3433333333,
+        "suhu_maksimum_c":29.7766666667,
+        "suhu_minimum_c":23.9266666667,
+        "kelembapan_rata_rata_persen":87.8666666667,
+        "curah_hujan_mm":414.4,
+        "kecepatan_angin_maks_kmh":11.69,
+        "radiasi_matahari_mj":19.164
+    },
+    {
+        "provinsi":"Papua Barat",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":26.5677419355,
+        "suhu_maksimum_c":29.8870967742,
+        "suhu_minimum_c":24.2774193548,
+        "kelembapan_rata_rata_persen":88.2903225806,
+        "curah_hujan_mm":304.9,
+        "kecepatan_angin_maks_kmh":12.2032258065,
+        "radiasi_matahari_mj":17.2774193548
+    },
+    {
+        "provinsi":"Papua Barat",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":26.1033333333,
+        "suhu_maksimum_c":29.1966666667,
+        "suhu_minimum_c":23.8366666667,
+        "kelembapan_rata_rata_persen":87.7333333333,
+        "curah_hujan_mm":237.7,
+        "kecepatan_angin_maks_kmh":10.56,
+        "radiasi_matahari_mj":17.0263333333
+    },
+    {
+        "provinsi":"Papua Barat",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":25.8,
+        "suhu_maksimum_c":28.7032258065,
+        "suhu_minimum_c":23.6870967742,
+        "kelembapan_rata_rata_persen":88.3870967742,
+        "curah_hujan_mm":196.5,
+        "kecepatan_angin_maks_kmh":10.9096774194,
+        "radiasi_matahari_mj":16.3438709677
+    },
+    {
+        "provinsi":"Papua Barat",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":26.1387096774,
+        "suhu_maksimum_c":28.9387096774,
+        "suhu_minimum_c":23.7096774194,
+        "kelembapan_rata_rata_persen":86.5806451613,
+        "curah_hujan_mm":207.7,
+        "kecepatan_angin_maks_kmh":13.5903225806,
+        "radiasi_matahari_mj":20.2725806452
+    },
+    {
+        "provinsi":"Papua Barat",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":26.7466666667,
+        "suhu_maksimum_c":29.9333333333,
+        "suhu_minimum_c":24.0233333333,
+        "kelembapan_rata_rata_persen":83.5333333333,
+        "curah_hujan_mm":155.6,
+        "kecepatan_angin_maks_kmh":13.0333333333,
+        "radiasi_matahari_mj":21.6273333333
+    },
+    {
+        "provinsi":"Papua Barat",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":26.6741935484,
+        "suhu_maksimum_c":30.035483871,
+        "suhu_minimum_c":24.1129032258,
+        "kelembapan_rata_rata_persen":83.4516129032,
+        "curah_hujan_mm":169.6,
+        "kecepatan_angin_maks_kmh":14.0580645161,
+        "radiasi_matahari_mj":21.1719354839
+    },
+    {
+        "provinsi":"Papua Barat",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":26.97,
+        "suhu_maksimum_c":30.55,
+        "suhu_minimum_c":24.15,
+        "kelembapan_rata_rata_persen":81.5333333333,
+        "curah_hujan_mm":137.8,
+        "kecepatan_angin_maks_kmh":13.2033333333,
+        "radiasi_matahari_mj":20.9783333333
+    },
+    {
+        "provinsi":"Papua Barat",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":26.2096774194,
+        "suhu_maksimum_c":30.0258064516,
+        "suhu_minimum_c":23.7387096774,
+        "kelembapan_rata_rata_persen":86.935483871,
+        "curah_hujan_mm":263.4,
+        "kecepatan_angin_maks_kmh":12.235483871,
+        "radiasi_matahari_mj":16.874516129
+    }
+]

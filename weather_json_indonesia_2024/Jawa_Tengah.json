@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Jawa Tengah",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":27.0258064516,
+        "suhu_maksimum_c":30.1225806452,
+        "suhu_minimum_c":24.6387096774,
+        "kelembapan_rata_rata_persen":85.9677419355,
+        "curah_hujan_mm":274.1,
+        "kecepatan_angin_maks_kmh":14.8967741935,
+        "radiasi_matahari_mj":18.9661290323
+    },
+    {
+        "provinsi":"Jawa Tengah",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":27.2206896552,
+        "suhu_maksimum_c":29.975862069,
+        "suhu_minimum_c":24.8275862069,
+        "kelembapan_rata_rata_persen":85.5172413793,
+        "curah_hujan_mm":247.6,
+        "kecepatan_angin_maks_kmh":16.0206896552,
+        "radiasi_matahari_mj":20.2417241379
+    },
+    {
+        "provinsi":"Jawa Tengah",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":27.4516129032,
+        "suhu_maksimum_c":30.5677419355,
+        "suhu_minimum_c":25.0290322581,
+        "kelembapan_rata_rata_persen":83.7096774194,
+        "curah_hujan_mm":217.4,
+        "kecepatan_angin_maks_kmh":17.7838709677,
+        "radiasi_matahari_mj":20.2109677419
+    },
+    {
+        "provinsi":"Jawa Tengah",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":28.06,
+        "suhu_maksimum_c":32.16,
+        "suhu_minimum_c":25.36,
+        "kelembapan_rata_rata_persen":82.8666666667,
+        "curah_hujan_mm":194.5,
+        "kecepatan_angin_maks_kmh":12.49,
+        "radiasi_matahari_mj":19.8726666667
+    },
+    {
+        "provinsi":"Jawa Tengah",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":29.935483871,
+        "suhu_maksimum_c":35.0419354839,
+        "suhu_minimum_c":25.8870967742,
+        "kelembapan_rata_rata_persen":66.3870967742,
+        "curah_hujan_mm":29.3,
+        "kecepatan_angin_maks_kmh":13.6193548387,
+        "radiasi_matahari_mj":20.4219354839
+    },
+    {
+        "provinsi":"Jawa Tengah",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":28.6133333333,
+        "suhu_maksimum_c":33.7666666667,
+        "suhu_minimum_c":24.7966666667,
+        "kelembapan_rata_rata_persen":71.5666666667,
+        "curah_hujan_mm":69.8,
+        "kecepatan_angin_maks_kmh":15.27,
+        "radiasi_matahari_mj":18.8063333333
+    },
+    {
+        "provinsi":"Jawa Tengah",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":28.2612903226,
+        "suhu_maksimum_c":33.8483870968,
+        "suhu_minimum_c":23.8548387097,
+        "kelembapan_rata_rata_persen":64.9677419355,
+        "curah_hujan_mm":36.5,
+        "kecepatan_angin_maks_kmh":16.7612903226,
+        "radiasi_matahari_mj":20.1170967742
+    },
+    {
+        "provinsi":"Jawa Tengah",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":28.6677419355,
+        "suhu_maksimum_c":34.8419354839,
+        "suhu_minimum_c":23.7903225806,
+        "kelembapan_rata_rata_persen":61.9032258065,
+        "curah_hujan_mm":14.0,
+        "kecepatan_angin_maks_kmh":17.9806451613,
+        "radiasi_matahari_mj":22.2938709677
+    },
+    {
+        "provinsi":"Jawa Tengah",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":28.7233333333,
+        "suhu_maksimum_c":34.4833333333,
+        "suhu_minimum_c":24.35,
+        "kelembapan_rata_rata_persen":66.2666666667,
+        "curah_hujan_mm":79.3,
+        "kecepatan_angin_maks_kmh":17.3933333333,
+        "radiasi_matahari_mj":23.2106666667
+    },
+    {
+        "provinsi":"Jawa Tengah",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":29.5451612903,
+        "suhu_maksimum_c":35.0838709677,
+        "suhu_minimum_c":25.0935483871,
+        "kelembapan_rata_rata_persen":65.5806451613,
+        "curah_hujan_mm":59.0,
+        "kecepatan_angin_maks_kmh":15.7838709677,
+        "radiasi_matahari_mj":24.3309677419
+    },
+    {
+        "provinsi":"Jawa Tengah",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":27.8666666667,
+        "suhu_maksimum_c":31.8433333333,
+        "suhu_minimum_c":25.32,
+        "kelembapan_rata_rata_persen":81.4666666667,
+        "curah_hujan_mm":287.1,
+        "kecepatan_angin_maks_kmh":12.2033333333,
+        "radiasi_matahari_mj":19.886
+    },
+    {
+        "provinsi":"Jawa Tengah",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":26.9870967742,
+        "suhu_maksimum_c":29.6935483871,
+        "suhu_minimum_c":24.9161290323,
+        "kelembapan_rata_rata_persen":86.5806451613,
+        "curah_hujan_mm":302.6,
+        "kecepatan_angin_maks_kmh":16.2258064516,
+        "radiasi_matahari_mj":16.5887096774
+    }
+]

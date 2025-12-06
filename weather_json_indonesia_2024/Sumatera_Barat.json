@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Sumatera Barat",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":26.1903225806,
+        "suhu_maksimum_c":29.0903225806,
+        "suhu_minimum_c":23.8032258065,
+        "kelembapan_rata_rata_persen":88.6774193548,
+        "curah_hujan_mm":396.5,
+        "kecepatan_angin_maks_kmh":9.1870967742,
+        "radiasi_matahari_mj":17.4119354839
+    },
+    {
+        "provinsi":"Sumatera Barat",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":26.8413793103,
+        "suhu_maksimum_c":29.9724137931,
+        "suhu_minimum_c":24.4275862069,
+        "kelembapan_rata_rata_persen":84.5517241379,
+        "curah_hujan_mm":257.5,
+        "kecepatan_angin_maks_kmh":8.5827586207,
+        "radiasi_matahari_mj":17.8789655172
+    },
+    {
+        "provinsi":"Sumatera Barat",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":26.6064516129,
+        "suhu_maksimum_c":29.3483870968,
+        "suhu_minimum_c":24.2129032258,
+        "kelembapan_rata_rata_persen":85.5806451613,
+        "curah_hujan_mm":527.0,
+        "kecepatan_angin_maks_kmh":9.0903225806,
+        "radiasi_matahari_mj":18.525483871
+    },
+    {
+        "provinsi":"Sumatera Barat",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":26.7033333333,
+        "suhu_maksimum_c":29.2933333333,
+        "suhu_minimum_c":24.56,
+        "kelembapan_rata_rata_persen":89.4666666667,
+        "curah_hujan_mm":473.7,
+        "kecepatan_angin_maks_kmh":8.4933333333,
+        "radiasi_matahari_mj":16.803
+    },
+    {
+        "provinsi":"Sumatera Barat",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":26.9870967742,
+        "suhu_maksimum_c":29.6806451613,
+        "suhu_minimum_c":24.8,
+        "kelembapan_rata_rata_persen":88.1290322581,
+        "curah_hujan_mm":421.6,
+        "kecepatan_angin_maks_kmh":8.9387096774,
+        "radiasi_matahari_mj":15.8106451613
+    },
+    {
+        "provinsi":"Sumatera Barat",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":26.41,
+        "suhu_maksimum_c":29.2333333333,
+        "suhu_minimum_c":23.9633333333,
+        "kelembapan_rata_rata_persen":86.5333333333,
+        "curah_hujan_mm":311.6,
+        "kecepatan_angin_maks_kmh":9.0366666667,
+        "radiasi_matahari_mj":16.9493333333
+    },
+    {
+        "provinsi":"Sumatera Barat",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":26.6870967742,
+        "suhu_maksimum_c":29.7483870968,
+        "suhu_minimum_c":23.7096774194,
+        "kelembapan_rata_rata_persen":81.4516129032,
+        "curah_hujan_mm":70.7,
+        "kecepatan_angin_maks_kmh":9.3225806452,
+        "radiasi_matahari_mj":19.5087096774
+    },
+    {
+        "provinsi":"Sumatera Barat",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":25.7709677419,
+        "suhu_maksimum_c":28.6580645161,
+        "suhu_minimum_c":23.2096774194,
+        "kelembapan_rata_rata_persen":87.8709677419,
+        "curah_hujan_mm":413.3,
+        "kecepatan_angin_maks_kmh":9.8483870968,
+        "radiasi_matahari_mj":17.6512903226
+    },
+    {
+        "provinsi":"Sumatera Barat",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":26.16,
+        "suhu_maksimum_c":28.8766666667,
+        "suhu_minimum_c":23.7066666667,
+        "kelembapan_rata_rata_persen":86.0333333333,
+        "curah_hujan_mm":259.6,
+        "kecepatan_angin_maks_kmh":9.18,
+        "radiasi_matahari_mj":18.8346666667
+    },
+    {
+        "provinsi":"Sumatera Barat",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":26.3,
+        "suhu_maksimum_c":29.135483871,
+        "suhu_minimum_c":23.6064516129,
+        "kelembapan_rata_rata_persen":83.064516129,
+        "curah_hujan_mm":396.5,
+        "kecepatan_angin_maks_kmh":9.4064516129,
+        "radiasi_matahari_mj":20.1825806452
+    },
+    {
+        "provinsi":"Sumatera Barat",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":26.23,
+        "suhu_maksimum_c":29.1766666667,
+        "suhu_minimum_c":23.9233333333,
+        "kelembapan_rata_rata_persen":85.5,
+        "curah_hujan_mm":300.2,
+        "kecepatan_angin_maks_kmh":9.2866666667,
+        "radiasi_matahari_mj":16.8893333333
+    },
+    {
+        "provinsi":"Sumatera Barat",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":26.1161290323,
+        "suhu_maksimum_c":28.9451612903,
+        "suhu_minimum_c":23.9193548387,
+        "kelembapan_rata_rata_persen":84.0967741935,
+        "curah_hujan_mm":337.1,
+        "kecepatan_angin_maks_kmh":9.3161290323,
+        "radiasi_matahari_mj":16.4816129032
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Kalimantan Timur",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":26.4225806452,
+        "suhu_maksimum_c":31.5612903226,
+        "suhu_minimum_c":23.2516129032,
+        "kelembapan_rata_rata_persen":86.6129032258,
+        "curah_hujan_mm":227.6,
+        "kecepatan_angin_maks_kmh":10.3161290323,
+        "radiasi_matahari_mj":18.5487096774
+    },
+    {
+        "provinsi":"Kalimantan Timur",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":26.3586206897,
+        "suhu_maksimum_c":31.3793103448,
+        "suhu_minimum_c":23.224137931,
+        "kelembapan_rata_rata_persen":86.3448275862,
+        "curah_hujan_mm":212.9,
+        "kecepatan_angin_maks_kmh":11.5,
+        "radiasi_matahari_mj":20.084137931
+    },
+    {
+        "provinsi":"Kalimantan Timur",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":26.4516129032,
+        "suhu_maksimum_c":31.7096774194,
+        "suhu_minimum_c":23.5129032258,
+        "kelembapan_rata_rata_persen":87.8709677419,
+        "curah_hujan_mm":207.4,
+        "kecepatan_angin_maks_kmh":11.7225806452,
+        "radiasi_matahari_mj":19.6229032258
+    },
+    {
+        "provinsi":"Kalimantan Timur",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":27.4033333333,
+        "suhu_maksimum_c":33.3166666667,
+        "suhu_minimum_c":23.79,
+        "kelembapan_rata_rata_persen":83.4,
+        "curah_hujan_mm":105.2,
+        "kecepatan_angin_maks_kmh":11.11,
+        "radiasi_matahari_mj":21.1336666667
+    },
+    {
+        "provinsi":"Kalimantan Timur",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":26.4709677419,
+        "suhu_maksimum_c":30.6161290323,
+        "suhu_minimum_c":23.8483870968,
+        "kelembapan_rata_rata_persen":91.8064516129,
+        "curah_hujan_mm":382.5,
+        "kecepatan_angin_maks_kmh":8.6290322581,
+        "radiasi_matahari_mj":16.2825806452
+    },
+    {
+        "provinsi":"Kalimantan Timur",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":25.6866666667,
+        "suhu_maksimum_c":30.0266666667,
+        "suhu_minimum_c":23.1466666667,
+        "kelembapan_rata_rata_persen":91.2,
+        "curah_hujan_mm":329.7,
+        "kecepatan_angin_maks_kmh":8.9833333333,
+        "radiasi_matahari_mj":15.477
+    },
+    {
+        "provinsi":"Kalimantan Timur",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":25.6322580645,
+        "suhu_maksimum_c":29.9935483871,
+        "suhu_minimum_c":22.9483870968,
+        "kelembapan_rata_rata_persen":89.5806451613,
+        "curah_hujan_mm":226.9,
+        "kecepatan_angin_maks_kmh":9.8129032258,
+        "radiasi_matahari_mj":15.8335483871
+    },
+    {
+        "provinsi":"Kalimantan Timur",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":25.3161290323,
+        "suhu_maksimum_c":29.9258064516,
+        "suhu_minimum_c":22.7838709677,
+        "kelembapan_rata_rata_persen":91.0967741935,
+        "curah_hujan_mm":360.7,
+        "kecepatan_angin_maks_kmh":9.2967741935,
+        "radiasi_matahari_mj":16.4832258065
+    },
+    {
+        "provinsi":"Kalimantan Timur",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":26.79,
+        "suhu_maksimum_c":32.0866666667,
+        "suhu_minimum_c":23.2233333333,
+        "kelembapan_rata_rata_persen":81.7333333333,
+        "curah_hujan_mm":112.8,
+        "kecepatan_angin_maks_kmh":11.4466666667,
+        "radiasi_matahari_mj":20.128
+    },
+    {
+        "provinsi":"Kalimantan Timur",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":26.4,
+        "suhu_maksimum_c":31.9290322581,
+        "suhu_minimum_c":23.2548387097,
+        "kelembapan_rata_rata_persen":86.1290322581,
+        "curah_hujan_mm":274.0,
+        "kecepatan_angin_maks_kmh":10.735483871,
+        "radiasi_matahari_mj":19.0141935484
+    },
+    {
+        "provinsi":"Kalimantan Timur",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":26.0666666667,
+        "suhu_maksimum_c":30.8933333333,
+        "suhu_minimum_c":23.14,
+        "kelembapan_rata_rata_persen":88.9333333333,
+        "curah_hujan_mm":233.2,
+        "kecepatan_angin_maks_kmh":10.7533333333,
+        "radiasi_matahari_mj":18.2946666667
+    },
+    {
+        "provinsi":"Kalimantan Timur",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":26.1064516129,
+        "suhu_maksimum_c":29.9709677419,
+        "suhu_minimum_c":23.5483870968,
+        "kelembapan_rata_rata_persen":89.6129032258,
+        "curah_hujan_mm":267.9,
+        "kecepatan_angin_maks_kmh":11.3677419355,
+        "radiasi_matahari_mj":15.9825806452
+    }
+]

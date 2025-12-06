@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Sulawesi Tengah",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":26.735483871,
+        "suhu_maksimum_c":30.6870967742,
+        "suhu_minimum_c":24.0548387097,
+        "kelembapan_rata_rata_persen":89.2258064516,
+        "curah_hujan_mm":272.5,
+        "kecepatan_angin_maks_kmh":10.5774193548,
+        "radiasi_matahari_mj":18.3912903226
+    },
+    {
+        "provinsi":"Sulawesi Tengah",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":27.0931034483,
+        "suhu_maksimum_c":31.5896551724,
+        "suhu_minimum_c":24.1965517241,
+        "kelembapan_rata_rata_persen":87.724137931,
+        "curah_hujan_mm":181.8,
+        "kecepatan_angin_maks_kmh":11.1379310345,
+        "radiasi_matahari_mj":20.3337931034
+    },
+    {
+        "provinsi":"Sulawesi Tengah",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":27.4483870968,
+        "suhu_maksimum_c":32.2387096774,
+        "suhu_minimum_c":24.5483870968,
+        "kelembapan_rata_rata_persen":87.7419354839,
+        "curah_hujan_mm":248.0,
+        "kecepatan_angin_maks_kmh":10.735483871,
+        "radiasi_matahari_mj":19.9825806452
+    },
+    {
+        "provinsi":"Sulawesi Tengah",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":27.3866666667,
+        "suhu_maksimum_c":32.0033333333,
+        "suhu_minimum_c":24.79,
+        "kelembapan_rata_rata_persen":89.2,
+        "curah_hujan_mm":395.7,
+        "kecepatan_angin_maks_kmh":10.48,
+        "radiasi_matahari_mj":18.9393333333
+    },
+    {
+        "provinsi":"Sulawesi Tengah",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":27.4903225806,
+        "suhu_maksimum_c":31.7322580645,
+        "suhu_minimum_c":25.0161290323,
+        "kelembapan_rata_rata_persen":90.3870967742,
+        "curah_hujan_mm":346.9,
+        "kecepatan_angin_maks_kmh":9.4193548387,
+        "radiasi_matahari_mj":17.2493548387
+    },
+    {
+        "provinsi":"Sulawesi Tengah",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":26.5666666667,
+        "suhu_maksimum_c":30.43,
+        "suhu_minimum_c":24.2533333333,
+        "kelembapan_rata_rata_persen":90.9666666667,
+        "curah_hujan_mm":400.7,
+        "kecepatan_angin_maks_kmh":9.4733333333,
+        "radiasi_matahari_mj":16.0643333333
+    },
+    {
+        "provinsi":"Sulawesi Tengah",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":26.5580645161,
+        "suhu_maksimum_c":30.7064516129,
+        "suhu_minimum_c":23.9258064516,
+        "kelembapan_rata_rata_persen":89.1612903226,
+        "curah_hujan_mm":265.3,
+        "kecepatan_angin_maks_kmh":9.9483870968,
+        "radiasi_matahari_mj":17.6525806452
+    },
+    {
+        "provinsi":"Sulawesi Tengah",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":26.5483870968,
+        "suhu_maksimum_c":31.1774193548,
+        "suhu_minimum_c":23.7193548387,
+        "kelembapan_rata_rata_persen":88.6774193548,
+        "curah_hujan_mm":258.1,
+        "kecepatan_angin_maks_kmh":10.5516129032,
+        "radiasi_matahari_mj":19.5664516129
+    },
+    {
+        "provinsi":"Sulawesi Tengah",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":27.29,
+        "suhu_maksimum_c":32.1033333333,
+        "suhu_minimum_c":24.1766666667,
+        "kelembapan_rata_rata_persen":85.8,
+        "curah_hujan_mm":220.6,
+        "kecepatan_angin_maks_kmh":11.4266666667,
+        "radiasi_matahari_mj":21.5426666667
+    },
+    {
+        "provinsi":"Sulawesi Tengah",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":27.0870967742,
+        "suhu_maksimum_c":31.7387096774,
+        "suhu_minimum_c":24.2580645161,
+        "kelembapan_rata_rata_persen":87.1935483871,
+        "curah_hujan_mm":288.6,
+        "kecepatan_angin_maks_kmh":10.8161290323,
+        "radiasi_matahari_mj":20.0964516129
+    },
+    {
+        "provinsi":"Sulawesi Tengah",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":27.4066666667,
+        "suhu_maksimum_c":31.9666666667,
+        "suhu_minimum_c":24.5966666667,
+        "kelembapan_rata_rata_persen":85.6666666667,
+        "curah_hujan_mm":227.9,
+        "kecepatan_angin_maks_kmh":11.5633333333,
+        "radiasi_matahari_mj":19.8073333333
+    },
+    {
+        "provinsi":"Sulawesi Tengah",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":28.2935483871,
+        "suhu_maksimum_c":32.3677419355,
+        "suhu_minimum_c":25.2387096774,
+        "kelembapan_rata_rata_persen":78.5806451613,
+        "curah_hujan_mm":138.1,
+        "kecepatan_angin_maks_kmh":9.9677419355,
+        "radiasi_matahari_mj":17.7448387097
+    }
+]

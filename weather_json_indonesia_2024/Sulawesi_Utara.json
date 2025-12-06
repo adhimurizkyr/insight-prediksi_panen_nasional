@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Sulawesi Utara",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":26.1322580645,
+        "suhu_maksimum_c":28.964516129,
+        "suhu_minimum_c":24.0548387097,
+        "kelembapan_rata_rata_persen":87.8709677419,
+        "curah_hujan_mm":349.9,
+        "kecepatan_angin_maks_kmh":10.4064516129,
+        "radiasi_matahari_mj":16.4861290323
+    },
+    {
+        "provinsi":"Sulawesi Utara",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":26.3413793103,
+        "suhu_maksimum_c":29.3137931034,
+        "suhu_minimum_c":24.1344827586,
+        "kelembapan_rata_rata_persen":84.7586206897,
+        "curah_hujan_mm":159.1,
+        "kecepatan_angin_maks_kmh":12.6206896552,
+        "radiasi_matahari_mj":19.6568965517
+    },
+    {
+        "provinsi":"Sulawesi Utara",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":26.6193548387,
+        "suhu_maksimum_c":29.6483870968,
+        "suhu_minimum_c":24.4548387097,
+        "kelembapan_rata_rata_persen":84.4516129032,
+        "curah_hujan_mm":171.3,
+        "kecepatan_angin_maks_kmh":12.9225806452,
+        "radiasi_matahari_mj":20.4025806452
+    },
+    {
+        "provinsi":"Sulawesi Utara",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":26.7333333333,
+        "suhu_maksimum_c":29.8033333333,
+        "suhu_minimum_c":24.2733333333,
+        "kelembapan_rata_rata_persen":84.9666666667,
+        "curah_hujan_mm":181.4,
+        "kecepatan_angin_maks_kmh":11.03,
+        "radiasi_matahari_mj":19.5773333333
+    },
+    {
+        "provinsi":"Sulawesi Utara",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":27.2935483871,
+        "suhu_maksimum_c":30.6741935484,
+        "suhu_minimum_c":24.9322580645,
+        "kelembapan_rata_rata_persen":84.935483871,
+        "curah_hujan_mm":195.9,
+        "kecepatan_angin_maks_kmh":9.8548387097,
+        "radiasi_matahari_mj":19.26
+    },
+    {
+        "provinsi":"Sulawesi Utara",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":26.3133333333,
+        "suhu_maksimum_c":29.4433333333,
+        "suhu_minimum_c":24.34,
+        "kelembapan_rata_rata_persen":87.8666666667,
+        "curah_hujan_mm":258.8,
+        "kecepatan_angin_maks_kmh":8.36,
+        "radiasi_matahari_mj":15.642
+    },
+    {
+        "provinsi":"Sulawesi Utara",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":26.5193548387,
+        "suhu_maksimum_c":29.8161290323,
+        "suhu_minimum_c":23.835483871,
+        "kelembapan_rata_rata_persen":84.2580645161,
+        "curah_hujan_mm":171.2,
+        "kecepatan_angin_maks_kmh":9.7129032258,
+        "radiasi_matahari_mj":17.8848387097
+    },
+    {
+        "provinsi":"Sulawesi Utara",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":26.2967741935,
+        "suhu_maksimum_c":29.7322580645,
+        "suhu_minimum_c":23.9419354839,
+        "kelembapan_rata_rata_persen":84.8064516129,
+        "curah_hujan_mm":348.1,
+        "kecepatan_angin_maks_kmh":9.7161290323,
+        "radiasi_matahari_mj":18.2767741935
+    },
+    {
+        "provinsi":"Sulawesi Utara",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":27.42,
+        "suhu_maksimum_c":31.6433333333,
+        "suhu_minimum_c":24.2666666667,
+        "kelembapan_rata_rata_persen":74.9333333333,
+        "curah_hujan_mm":55.1,
+        "kecepatan_angin_maks_kmh":11.7333333333,
+        "radiasi_matahari_mj":21.8723333333
+    },
+    {
+        "provinsi":"Sulawesi Utara",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":26.9258064516,
+        "suhu_maksimum_c":30.8419354839,
+        "suhu_minimum_c":24.2096774194,
+        "kelembapan_rata_rata_persen":81.0967741935,
+        "curah_hujan_mm":132.8,
+        "kecepatan_angin_maks_kmh":10.0548387097,
+        "radiasi_matahari_mj":20.5641935484
+    },
+    {
+        "provinsi":"Sulawesi Utara",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":26.6333333333,
+        "suhu_maksimum_c":30.0633333333,
+        "suhu_minimum_c":24.43,
+        "kelembapan_rata_rata_persen":85.0,
+        "curah_hujan_mm":180.1,
+        "kecepatan_angin_maks_kmh":9.8433333333,
+        "radiasi_matahari_mj":18.6096666667
+    },
+    {
+        "provinsi":"Sulawesi Utara",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":26.5064516129,
+        "suhu_maksimum_c":29.435483871,
+        "suhu_minimum_c":24.7193548387,
+        "kelembapan_rata_rata_persen":88.4516129032,
+        "curah_hujan_mm":329.9,
+        "kecepatan_angin_maks_kmh":11.8483870968,
+        "radiasi_matahari_mj":17.5851612903
+    }
+]

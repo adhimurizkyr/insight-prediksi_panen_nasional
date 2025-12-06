@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Jawa Barat",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":22.8741935484,
+        "suhu_maksimum_c":27.1806451613,
+        "suhu_minimum_c":19.6064516129,
+        "kelembapan_rata_rata_persen":83.4193548387,
+        "curah_hujan_mm":295.6,
+        "kecepatan_angin_maks_kmh":13.064516129,
+        "radiasi_matahari_mj":17.9816129032
+    },
+    {
+        "provinsi":"Jawa Barat",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":23.0,
+        "suhu_maksimum_c":27.2103448276,
+        "suhu_minimum_c":19.7,
+        "kelembapan_rata_rata_persen":84.4482758621,
+        "curah_hujan_mm":245.0,
+        "kecepatan_angin_maks_kmh":11.275862069,
+        "radiasi_matahari_mj":18.76
+    },
+    {
+        "provinsi":"Jawa Barat",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":22.8612903226,
+        "suhu_maksimum_c":27.1387096774,
+        "suhu_minimum_c":19.5935483871,
+        "kelembapan_rata_rata_persen":84.1935483871,
+        "curah_hujan_mm":257.2,
+        "kecepatan_angin_maks_kmh":14.2806451613,
+        "radiasi_matahari_mj":18.3064516129
+    },
+    {
+        "provinsi":"Jawa Barat",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":23.2933333333,
+        "suhu_maksimum_c":28.1466666667,
+        "suhu_minimum_c":19.5233333333,
+        "kelembapan_rata_rata_persen":85.2333333333,
+        "curah_hujan_mm":272.4,
+        "kecepatan_angin_maks_kmh":10.3633333333,
+        "radiasi_matahari_mj":17.5903333333
+    },
+    {
+        "provinsi":"Jawa Barat",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":23.3612903226,
+        "suhu_maksimum_c":28.2967741935,
+        "suhu_minimum_c":18.8935483871,
+        "kelembapan_rata_rata_persen":82.064516129,
+        "curah_hujan_mm":218.5,
+        "kecepatan_angin_maks_kmh":10.2548387097,
+        "radiasi_matahari_mj":18.4738709677
+    },
+    {
+        "provinsi":"Jawa Barat",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":22.49,
+        "suhu_maksimum_c":27.8066666667,
+        "suhu_minimum_c":17.5633333333,
+        "kelembapan_rata_rata_persen":81.9,
+        "curah_hujan_mm":87.3,
+        "kecepatan_angin_maks_kmh":9.67,
+        "radiasi_matahari_mj":17.9743333333
+    },
+    {
+        "provinsi":"Jawa Barat",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":21.8870967742,
+        "suhu_maksimum_c":27.6064516129,
+        "suhu_minimum_c":16.7838709677,
+        "kelembapan_rata_rata_persen":78.1290322581,
+        "curah_hujan_mm":69.6,
+        "kecepatan_angin_maks_kmh":10.8161290323,
+        "radiasi_matahari_mj":19.6429032258
+    },
+    {
+        "provinsi":"Jawa Barat",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":23.1064516129,
+        "suhu_maksimum_c":30.1903225806,
+        "suhu_minimum_c":17.0967741935,
+        "kelembapan_rata_rata_persen":67.8387096774,
+        "curah_hujan_mm":32.0,
+        "kecepatan_angin_maks_kmh":12.3516129032,
+        "radiasi_matahari_mj":21.8312903226
+    },
+    {
+        "provinsi":"Jawa Barat",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":23.0466666667,
+        "suhu_maksimum_c":29.4666666667,
+        "suhu_minimum_c":17.8433333333,
+        "kelembapan_rata_rata_persen":71.5666666667,
+        "curah_hujan_mm":132.8,
+        "kecepatan_angin_maks_kmh":12.24,
+        "radiasi_matahari_mj":22.4326666667
+    },
+    {
+        "provinsi":"Jawa Barat",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":23.8516129032,
+        "suhu_maksimum_c":30.2258064516,
+        "suhu_minimum_c":18.3129032258,
+        "kelembapan_rata_rata_persen":71.3548387097,
+        "curah_hujan_mm":62.9,
+        "kecepatan_angin_maks_kmh":12.5,
+        "radiasi_matahari_mj":23.5274193548
+    },
+    {
+        "provinsi":"Jawa Barat",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":23.1233333333,
+        "suhu_maksimum_c":28.11,
+        "suhu_minimum_c":19.78,
+        "kelembapan_rata_rata_persen":81.7666666667,
+        "curah_hujan_mm":396.4,
+        "kecepatan_angin_maks_kmh":9.3266666667,
+        "radiasi_matahari_mj":17.1713333333
+    },
+    {
+        "provinsi":"Jawa Barat",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":23.3387096774,
+        "suhu_maksimum_c":26.9806451613,
+        "suhu_minimum_c":21.0548387097,
+        "kelembapan_rata_rata_persen":79.7096774194,
+        "curah_hujan_mm":228.1,
+        "kecepatan_angin_maks_kmh":13.5774193548,
+        "radiasi_matahari_mj":15.8812903226
+    }
+]

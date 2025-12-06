@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Maluku Utara",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":27.2709677419,
+        "suhu_maksimum_c":29.1032258065,
+        "suhu_minimum_c":25.8,
+        "kelembapan_rata_rata_persen":84.4193548387,
+        "curah_hujan_mm":272.2,
+        "kecepatan_angin_maks_kmh":17.1064516129,
+        "radiasi_matahari_mj":19.2935483871
+    },
+    {
+        "provinsi":"Maluku Utara",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":27.4827586207,
+        "suhu_maksimum_c":29.4896551724,
+        "suhu_minimum_c":26.0482758621,
+        "kelembapan_rata_rata_persen":83.6896551724,
+        "curah_hujan_mm":81.2,
+        "kecepatan_angin_maks_kmh":17.4862068966,
+        "radiasi_matahari_mj":23.0393103448
+    },
+    {
+        "provinsi":"Maluku Utara",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":27.4580645161,
+        "suhu_maksimum_c":29.5483870968,
+        "suhu_minimum_c":25.9193548387,
+        "kelembapan_rata_rata_persen":83.5483870968,
+        "curah_hujan_mm":130.1,
+        "kecepatan_angin_maks_kmh":16.9806451613,
+        "radiasi_matahari_mj":22.6709677419
+    },
+    {
+        "provinsi":"Maluku Utara",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":27.7666666667,
+        "suhu_maksimum_c":29.9966666667,
+        "suhu_minimum_c":26.18,
+        "kelembapan_rata_rata_persen":83.9,
+        "curah_hujan_mm":186.6,
+        "kecepatan_angin_maks_kmh":12.7733333333,
+        "radiasi_matahari_mj":21.666
+    },
+    {
+        "provinsi":"Maluku Utara",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":27.7451612903,
+        "suhu_maksimum_c":29.7096774194,
+        "suhu_minimum_c":25.9516129032,
+        "kelembapan_rata_rata_persen":86.4193548387,
+        "curah_hujan_mm":249.4,
+        "kecepatan_angin_maks_kmh":11.2612903226,
+        "radiasi_matahari_mj":19.5848387097
+    },
+    {
+        "provinsi":"Maluku Utara",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":26.8033333333,
+        "suhu_maksimum_c":28.5733333333,
+        "suhu_minimum_c":25.1233333333,
+        "kelembapan_rata_rata_persen":88.2333333333,
+        "curah_hujan_mm":367.9,
+        "kecepatan_angin_maks_kmh":10.9,
+        "radiasi_matahari_mj":16.6193333333
+    },
+    {
+        "provinsi":"Maluku Utara",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":27.0483870968,
+        "suhu_maksimum_c":28.8064516129,
+        "suhu_minimum_c":25.5709677419,
+        "kelembapan_rata_rata_persen":84.2258064516,
+        "curah_hujan_mm":178.3,
+        "kecepatan_angin_maks_kmh":14.0935483871,
+        "radiasi_matahari_mj":18.4903225806
+    },
+    {
+        "provinsi":"Maluku Utara",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":26.4548387097,
+        "suhu_maksimum_c":28.3290322581,
+        "suhu_minimum_c":24.8258064516,
+        "kelembapan_rata_rata_persen":87.5161290323,
+        "curah_hujan_mm":327.9,
+        "kecepatan_angin_maks_kmh":12.3741935484,
+        "radiasi_matahari_mj":18.2187096774
+    },
+    {
+        "provinsi":"Maluku Utara",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":27.5266666667,
+        "suhu_maksimum_c":29.4833333333,
+        "suhu_minimum_c":26.0466666667,
+        "kelembapan_rata_rata_persen":82.6,
+        "curah_hujan_mm":83.4,
+        "kecepatan_angin_maks_kmh":14.9033333333,
+        "radiasi_matahari_mj":21.474
+    },
+    {
+        "provinsi":"Maluku Utara",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":27.4806451613,
+        "suhu_maksimum_c":29.5225806452,
+        "suhu_minimum_c":25.8387096774,
+        "kelembapan_rata_rata_persen":83.6774193548,
+        "curah_hujan_mm":184.7,
+        "kecepatan_angin_maks_kmh":12.4258064516,
+        "radiasi_matahari_mj":22.0803225806
+    },
+    {
+        "provinsi":"Maluku Utara",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":27.68,
+        "suhu_maksimum_c":30.57,
+        "suhu_minimum_c":25.7566666667,
+        "kelembapan_rata_rata_persen":83.1666666667,
+        "curah_hujan_mm":138.5,
+        "kecepatan_angin_maks_kmh":10.0266666667,
+        "radiasi_matahari_mj":20.833
+    },
+    {
+        "provinsi":"Maluku Utara",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":27.2709677419,
+        "suhu_maksimum_c":29.2709677419,
+        "suhu_minimum_c":25.6677419355,
+        "kelembapan_rata_rata_persen":87.0967741935,
+        "curah_hujan_mm":296.7,
+        "kecepatan_angin_maks_kmh":14.4258064516,
+        "radiasi_matahari_mj":18.5248387097
+    }
+]

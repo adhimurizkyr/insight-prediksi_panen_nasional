@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"DKI Jakarta",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":26.8225806452,
+        "suhu_maksimum_c":31.0870967742,
+        "suhu_minimum_c":23.9322580645,
+        "kelembapan_rata_rata_persen":83.9677419355,
+        "curah_hujan_mm":352.4,
+        "kecepatan_angin_maks_kmh":13.5161290323,
+        "radiasi_matahari_mj":18.024516129
+    },
+    {
+        "provinsi":"DKI Jakarta",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":26.824137931,
+        "suhu_maksimum_c":30.9586206897,
+        "suhu_minimum_c":23.9827586207,
+        "kelembapan_rata_rata_persen":85.8275862069,
+        "curah_hujan_mm":265.5,
+        "kecepatan_angin_maks_kmh":12.0896551724,
+        "radiasi_matahari_mj":18.5668965517
+    },
+    {
+        "provinsi":"DKI Jakarta",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":26.8258064516,
+        "suhu_maksimum_c":31.1483870968,
+        "suhu_minimum_c":23.9064516129,
+        "kelembapan_rata_rata_persen":84.9032258065,
+        "curah_hujan_mm":275.2,
+        "kecepatan_angin_maks_kmh":14.5741935484,
+        "radiasi_matahari_mj":18.4474193548
+    },
+    {
+        "provinsi":"DKI Jakarta",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":27.3366666667,
+        "suhu_maksimum_c":32.0433333333,
+        "suhu_minimum_c":24.2333333333,
+        "kelembapan_rata_rata_persen":86.5333333333,
+        "curah_hujan_mm":281.7,
+        "kecepatan_angin_maks_kmh":10.1666666667,
+        "radiasi_matahari_mj":19.028
+    },
+    {
+        "provinsi":"DKI Jakarta",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":27.6967741935,
+        "suhu_maksimum_c":32.3290322581,
+        "suhu_minimum_c":24.2387096774,
+        "kelembapan_rata_rata_persen":83.2258064516,
+        "curah_hujan_mm":217.5,
+        "kecepatan_angin_maks_kmh":10.564516129,
+        "radiasi_matahari_mj":18.1025806452
+    },
+    {
+        "provinsi":"DKI Jakarta",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":27.0233333333,
+        "suhu_maksimum_c":31.69,
+        "suhu_minimum_c":23.4533333333,
+        "kelembapan_rata_rata_persen":83.1666666667,
+        "curah_hujan_mm":143.7,
+        "kecepatan_angin_maks_kmh":10.8933333333,
+        "radiasi_matahari_mj":17.7266666667
+    },
+    {
+        "provinsi":"DKI Jakarta",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":26.9032258065,
+        "suhu_maksimum_c":31.9161290323,
+        "suhu_minimum_c":22.8516129032,
+        "kelembapan_rata_rata_persen":76.9032258065,
+        "curah_hujan_mm":97.0,
+        "kecepatan_angin_maks_kmh":12.6129032258,
+        "radiasi_matahari_mj":18.8458064516
+    },
+    {
+        "provinsi":"DKI Jakarta",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":27.6580645161,
+        "suhu_maksimum_c":33.5806451613,
+        "suhu_minimum_c":23.2258064516,
+        "kelembapan_rata_rata_persen":72.7741935484,
+        "curah_hujan_mm":37.7,
+        "kecepatan_angin_maks_kmh":16.7225806452,
+        "radiasi_matahari_mj":20.5561290323
+    },
+    {
+        "provinsi":"DKI Jakarta",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":27.6966666667,
+        "suhu_maksimum_c":33.2633333333,
+        "suhu_minimum_c":23.5333333333,
+        "kelembapan_rata_rata_persen":75.0,
+        "curah_hujan_mm":126.0,
+        "kecepatan_angin_maks_kmh":14.2666666667,
+        "radiasi_matahari_mj":21.6616666667
+    },
+    {
+        "provinsi":"DKI Jakarta",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":28.2838709677,
+        "suhu_maksimum_c":33.9096774194,
+        "suhu_minimum_c":24.0709677419,
+        "kelembapan_rata_rata_persen":73.9032258065,
+        "curah_hujan_mm":105.9,
+        "kecepatan_angin_maks_kmh":14.6580645161,
+        "radiasi_matahari_mj":22.7061290323
+    },
+    {
+        "provinsi":"DKI Jakarta",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":27.37,
+        "suhu_maksimum_c":32.2966666667,
+        "suhu_minimum_c":24.39,
+        "kelembapan_rata_rata_persen":82.2,
+        "curah_hujan_mm":267.5,
+        "kecepatan_angin_maks_kmh":10.8733333333,
+        "radiasi_matahari_mj":19.5596666667
+    },
+    {
+        "provinsi":"DKI Jakarta",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":27.0483870968,
+        "suhu_maksimum_c":30.3903225806,
+        "suhu_minimum_c":24.5935483871,
+        "kelembapan_rata_rata_persen":81.7419354839,
+        "curah_hujan_mm":330.1,
+        "kecepatan_angin_maks_kmh":12.5225806452,
+        "radiasi_matahari_mj":16.304516129
+    }
+]

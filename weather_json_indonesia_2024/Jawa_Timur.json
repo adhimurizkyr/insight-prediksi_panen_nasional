@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Jawa Timur",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":27.3064516129,
+        "suhu_maksimum_c":31.6032258065,
+        "suhu_minimum_c":24.5193548387,
+        "kelembapan_rata_rata_persen":83.4516129032,
+        "curah_hujan_mm":339.5,
+        "kecepatan_angin_maks_kmh":13.9483870968,
+        "radiasi_matahari_mj":19.3619354839
+    },
+    {
+        "provinsi":"Jawa Timur",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":27.0172413793,
+        "suhu_maksimum_c":31.1103448276,
+        "suhu_minimum_c":24.6068965517,
+        "kelembapan_rata_rata_persen":86.7586206897,
+        "curah_hujan_mm":391.5,
+        "kecepatan_angin_maks_kmh":12.575862069,
+        "radiasi_matahari_mj":19.66
+    },
+    {
+        "provinsi":"Jawa Timur",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":27.3548387097,
+        "suhu_maksimum_c":31.0064516129,
+        "suhu_minimum_c":24.6806451613,
+        "kelembapan_rata_rata_persen":84.4838709677,
+        "curah_hujan_mm":239.4,
+        "kecepatan_angin_maks_kmh":15.8387096774,
+        "radiasi_matahari_mj":19.1729032258
+    },
+    {
+        "provinsi":"Jawa Timur",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":27.9766666667,
+        "suhu_maksimum_c":31.05,
+        "suhu_minimum_c":25.45,
+        "kelembapan_rata_rata_persen":83.6,
+        "curah_hujan_mm":225.4,
+        "kecepatan_angin_maks_kmh":13.3966666667,
+        "radiasi_matahari_mj":19.0763333333
+    },
+    {
+        "provinsi":"Jawa Timur",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":28.9838709677,
+        "suhu_maksimum_c":31.9741935484,
+        "suhu_minimum_c":25.0612903226,
+        "kelembapan_rata_rata_persen":72.7096774194,
+        "curah_hujan_mm":5.7,
+        "kecepatan_angin_maks_kmh":16.5612903226,
+        "radiasi_matahari_mj":21.1190322581
+    },
+    {
+        "provinsi":"Jawa Timur",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":28.4,
+        "suhu_maksimum_c":31.7,
+        "suhu_minimum_c":24.5566666667,
+        "kelembapan_rata_rata_persen":72.3333333333,
+        "curah_hujan_mm":33.8,
+        "kecepatan_angin_maks_kmh":17.2066666667,
+        "radiasi_matahari_mj":19.144
+    },
+    {
+        "provinsi":"Jawa Timur",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":27.6806451613,
+        "suhu_maksimum_c":31.4096774194,
+        "suhu_minimum_c":22.9225806452,
+        "kelembapan_rata_rata_persen":68.064516129,
+        "curah_hujan_mm":7.5,
+        "kecepatan_angin_maks_kmh":20.2483870968,
+        "radiasi_matahari_mj":20.4703225806
+    },
+    {
+        "provinsi":"Jawa Timur",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":27.8096774194,
+        "suhu_maksimum_c":32.0580645161,
+        "suhu_minimum_c":22.6,
+        "kelembapan_rata_rata_persen":65.6129032258,
+        "curah_hujan_mm":3.7,
+        "kecepatan_angin_maks_kmh":22.4161290323,
+        "radiasi_matahari_mj":22.9170967742
+    },
+    {
+        "provinsi":"Jawa Timur",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":28.8333333333,
+        "suhu_maksimum_c":32.99,
+        "suhu_minimum_c":24.0866666667,
+        "kelembapan_rata_rata_persen":65.4333333333,
+        "curah_hujan_mm":11.4,
+        "kecepatan_angin_maks_kmh":20.7733333333,
+        "radiasi_matahari_mj":24.157
+    },
+    {
+        "provinsi":"Jawa Timur",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":29.7193548387,
+        "suhu_maksimum_c":34.1064516129,
+        "suhu_minimum_c":24.7161290323,
+        "kelembapan_rata_rata_persen":64.1290322581,
+        "curah_hujan_mm":19.5,
+        "kecepatan_angin_maks_kmh":20.5451612903,
+        "radiasi_matahari_mj":25.1041935484
+    },
+    {
+        "provinsi":"Jawa Timur",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":28.33,
+        "suhu_maksimum_c":31.9933333333,
+        "suhu_minimum_c":25.33,
+        "kelembapan_rata_rata_persen":78.9333333333,
+        "curah_hujan_mm":284.3,
+        "kecepatan_angin_maks_kmh":12.5566666667,
+        "radiasi_matahari_mj":22.1403333333
+    },
+    {
+        "provinsi":"Jawa Timur",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":27.0709677419,
+        "suhu_maksimum_c":30.7451612903,
+        "suhu_minimum_c":24.9967741935,
+        "kelembapan_rata_rata_persen":85.0,
+        "curah_hujan_mm":426.0,
+        "kecepatan_angin_maks_kmh":11.1806451613,
+        "radiasi_matahari_mj":17.3732258065
+    }
+]

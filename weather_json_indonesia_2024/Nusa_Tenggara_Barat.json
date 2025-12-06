@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Nusa Tenggara Barat",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":27.2870967742,
+        "suhu_maksimum_c":30.5483870968,
+        "suhu_minimum_c":24.535483871,
+        "kelembapan_rata_rata_persen":83.6129032258,
+        "curah_hujan_mm":182.5,
+        "kecepatan_angin_maks_kmh":16.6064516129,
+        "radiasi_matahari_mj":20.4593548387
+    },
+    {
+        "provinsi":"Nusa Tenggara Barat",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":27.0586206897,
+        "suhu_maksimum_c":30.5068965517,
+        "suhu_minimum_c":24.1517241379,
+        "kelembapan_rata_rata_persen":85.2413793103,
+        "curah_hujan_mm":197.4,
+        "kecepatan_angin_maks_kmh":14.8137931034,
+        "radiasi_matahari_mj":21.5710344828
+    },
+    {
+        "provinsi":"Nusa Tenggara Barat",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":27.3290322581,
+        "suhu_maksimum_c":30.7870967742,
+        "suhu_minimum_c":24.6580645161,
+        "kelembapan_rata_rata_persen":82.7096774194,
+        "curah_hujan_mm":183.8,
+        "kecepatan_angin_maks_kmh":17.4419354839,
+        "radiasi_matahari_mj":20.1119354839
+    },
+    {
+        "provinsi":"Nusa Tenggara Barat",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":27.2566666667,
+        "suhu_maksimum_c":31.0633333333,
+        "suhu_minimum_c":24.6033333333,
+        "kelembapan_rata_rata_persen":84.9333333333,
+        "curah_hujan_mm":184.0,
+        "kecepatan_angin_maks_kmh":13.7533333333,
+        "radiasi_matahari_mj":18.7813333333
+    },
+    {
+        "provinsi":"Nusa Tenggara Barat",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":27.7258064516,
+        "suhu_maksimum_c":32.1774193548,
+        "suhu_minimum_c":24.4483870968,
+        "kelembapan_rata_rata_persen":77.1612903226,
+        "curah_hujan_mm":33.4,
+        "kecepatan_angin_maks_kmh":16.7032258065,
+        "radiasi_matahari_mj":19.9970967742
+    },
+    {
+        "provinsi":"Nusa Tenggara Barat",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":26.94,
+        "suhu_maksimum_c":31.4866666667,
+        "suhu_minimum_c":23.7066666667,
+        "kelembapan_rata_rata_persen":76.3666666667,
+        "curah_hujan_mm":44.9,
+        "kecepatan_angin_maks_kmh":18.19,
+        "radiasi_matahari_mj":17.8316666667
+    },
+    {
+        "provinsi":"Nusa Tenggara Barat",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":26.1129032258,
+        "suhu_maksimum_c":30.9580645161,
+        "suhu_minimum_c":22.8064516129,
+        "kelembapan_rata_rata_persen":74.6774193548,
+        "curah_hujan_mm":62.3,
+        "kecepatan_angin_maks_kmh":19.5967741935,
+        "radiasi_matahari_mj":18.2338709677
+    },
+    {
+        "provinsi":"Nusa Tenggara Barat",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":26.2612903226,
+        "suhu_maksimum_c":31.164516129,
+        "suhu_minimum_c":22.7032258065,
+        "kelembapan_rata_rata_persen":74.1935483871,
+        "curah_hujan_mm":11.7,
+        "kecepatan_angin_maks_kmh":19.2387096774,
+        "radiasi_matahari_mj":21.2561290323
+    },
+    {
+        "provinsi":"Nusa Tenggara Barat",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":27.33,
+        "suhu_maksimum_c":32.58,
+        "suhu_minimum_c":23.18,
+        "kelembapan_rata_rata_persen":73.7666666667,
+        "curah_hujan_mm":59.0,
+        "kecepatan_angin_maks_kmh":17.4366666667,
+        "radiasi_matahari_mj":22.665
+    },
+    {
+        "provinsi":"Nusa Tenggara Barat",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":28.264516129,
+        "suhu_maksimum_c":33.564516129,
+        "suhu_minimum_c":24.3032258065,
+        "kelembapan_rata_rata_persen":72.1612903226,
+        "curah_hujan_mm":51.7,
+        "kecepatan_angin_maks_kmh":17.4322580645,
+        "radiasi_matahari_mj":23.8090322581
+    },
+    {
+        "provinsi":"Nusa Tenggara Barat",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":27.2333333333,
+        "suhu_maksimum_c":32.0366666667,
+        "suhu_minimum_c":23.6266666667,
+        "kelembapan_rata_rata_persen":81.5333333333,
+        "curah_hujan_mm":254.1,
+        "kecepatan_angin_maks_kmh":13.2766666667,
+        "radiasi_matahari_mj":21.0313333333
+    },
+    {
+        "provinsi":"Nusa Tenggara Barat",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":26.2580645161,
+        "suhu_maksimum_c":29.3870967742,
+        "suhu_minimum_c":24.1258064516,
+        "kelembapan_rata_rata_persen":89.1290322581,
+        "curah_hujan_mm":402.4,
+        "kecepatan_angin_maks_kmh":14.4548387097,
+        "radiasi_matahari_mj":15.8441935484
+    }
+]

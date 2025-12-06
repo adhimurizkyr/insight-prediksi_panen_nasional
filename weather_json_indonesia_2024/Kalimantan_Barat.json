@@ -1,0 +1,134 @@
+[
+    {
+        "provinsi":"Kalimantan Barat",
+        "bulan":"2024-01",
+        "suhu_rata_rata_c":25.9806451613,
+        "suhu_maksimum_c":29.8483870968,
+        "suhu_minimum_c":23.7387096774,
+        "kelembapan_rata_rata_persen":92.7419354839,
+        "curah_hujan_mm":471.8,
+        "kecepatan_angin_maks_kmh":10.7451612903,
+        "radiasi_matahari_mj":16.0593548387
+    },
+    {
+        "provinsi":"Kalimantan Barat",
+        "bulan":"2024-02",
+        "suhu_rata_rata_c":26.3482758621,
+        "suhu_maksimum_c":30.7586206897,
+        "suhu_minimum_c":23.7068965517,
+        "kelembapan_rata_rata_persen":90.9310344828,
+        "curah_hujan_mm":323.0,
+        "kecepatan_angin_maks_kmh":10.7482758621,
+        "radiasi_matahari_mj":18.2389655172
+    },
+    {
+        "provinsi":"Kalimantan Barat",
+        "bulan":"2024-03",
+        "suhu_rata_rata_c":26.5032258065,
+        "suhu_maksimum_c":30.7677419355,
+        "suhu_minimum_c":23.835483871,
+        "kelembapan_rata_rata_persen":90.6451612903,
+        "curah_hujan_mm":403.0,
+        "kecepatan_angin_maks_kmh":10.7548387097,
+        "radiasi_matahari_mj":17.7467741935
+    },
+    {
+        "provinsi":"Kalimantan Barat",
+        "bulan":"2024-04",
+        "suhu_rata_rata_c":26.7566666667,
+        "suhu_maksimum_c":31.0233333333,
+        "suhu_minimum_c":24.3866666667,
+        "kelembapan_rata_rata_persen":92.3,
+        "curah_hujan_mm":471.8,
+        "kecepatan_angin_maks_kmh":9.4766666667,
+        "radiasi_matahari_mj":17.3406666667
+    },
+    {
+        "provinsi":"Kalimantan Barat",
+        "bulan":"2024-05",
+        "suhu_rata_rata_c":26.7806451613,
+        "suhu_maksimum_c":30.5967741935,
+        "suhu_minimum_c":24.5193548387,
+        "kelembapan_rata_rata_persen":93.0322580645,
+        "curah_hujan_mm":558.4,
+        "kecepatan_angin_maks_kmh":10.2,
+        "radiasi_matahari_mj":15.5074193548
+    },
+    {
+        "provinsi":"Kalimantan Barat",
+        "bulan":"2024-06",
+        "suhu_rata_rata_c":26.5133333333,
+        "suhu_maksimum_c":30.47,
+        "suhu_minimum_c":23.8866666667,
+        "kelembapan_rata_rata_persen":90.5333333333,
+        "curah_hujan_mm":273.8,
+        "kecepatan_angin_maks_kmh":9.4266666667,
+        "radiasi_matahari_mj":16.6146666667
+    },
+    {
+        "provinsi":"Kalimantan Barat",
+        "bulan":"2024-07",
+        "suhu_rata_rata_c":26.9935483871,
+        "suhu_maksimum_c":31.3870967742,
+        "suhu_minimum_c":23.8419354839,
+        "kelembapan_rata_rata_persen":84.3548387097,
+        "curah_hujan_mm":113.3,
+        "kecepatan_angin_maks_kmh":11.3548387097,
+        "radiasi_matahari_mj":18.9958064516
+    },
+    {
+        "provinsi":"Kalimantan Barat",
+        "bulan":"2024-08",
+        "suhu_rata_rata_c":25.8580645161,
+        "suhu_maksimum_c":30.0903225806,
+        "suhu_minimum_c":23.3129032258,
+        "kelembapan_rata_rata_persen":90.4516129032,
+        "curah_hujan_mm":433.2,
+        "kecepatan_angin_maks_kmh":10.1838709677,
+        "radiasi_matahari_mj":16.2983870968
+    },
+    {
+        "provinsi":"Kalimantan Barat",
+        "bulan":"2024-09",
+        "suhu_rata_rata_c":27.06,
+        "suhu_maksimum_c":31.5166666667,
+        "suhu_minimum_c":24.0466666667,
+        "kelembapan_rata_rata_persen":84.6,
+        "curah_hujan_mm":144.9,
+        "kecepatan_angin_maks_kmh":10.8566666667,
+        "radiasi_matahari_mj":18.686
+    },
+    {
+        "provinsi":"Kalimantan Barat",
+        "bulan":"2024-10",
+        "suhu_rata_rata_c":26.5129032258,
+        "suhu_maksimum_c":30.9290322581,
+        "suhu_minimum_c":23.7483870968,
+        "kelembapan_rata_rata_persen":88.5161290323,
+        "curah_hujan_mm":287.0,
+        "kecepatan_angin_maks_kmh":10.1806451613,
+        "radiasi_matahari_mj":18.2170967742
+    },
+    {
+        "provinsi":"Kalimantan Barat",
+        "bulan":"2024-11",
+        "suhu_rata_rata_c":26.2566666667,
+        "suhu_maksimum_c":30.3066666667,
+        "suhu_minimum_c":23.9166666667,
+        "kelembapan_rata_rata_persen":90.1333333333,
+        "curah_hujan_mm":421.6,
+        "kecepatan_angin_maks_kmh":10.7433333333,
+        "radiasi_matahari_mj":16.462
+    },
+    {
+        "provinsi":"Kalimantan Barat",
+        "bulan":"2024-12",
+        "suhu_rata_rata_c":26.5935483871,
+        "suhu_maksimum_c":30.1,
+        "suhu_minimum_c":24.2161290323,
+        "kelembapan_rata_rata_persen":88.1935483871,
+        "curah_hujan_mm":256.4,
+        "kecepatan_angin_maks_kmh":12.4032258065,
+        "radiasi_matahari_mj":16.1619354839
+    }
+]
