@@ -72,7 +72,7 @@ pandas
 altair
 joblib
 numpy
-plotly 
+plotly
 ```
 
 Step
