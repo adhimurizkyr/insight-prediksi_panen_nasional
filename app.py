@@ -504,4 +504,4 @@ with st.expander("Lihat Data Mentah Terpilih (CSV)"):
     else:
         st.info("Tidak ada data yang tersedia untuk seleksi ini.")
 
-st.caption("Data sumber: Open-Meteo & BPS — dibuat oleh Adhim 🇮🇩")
+st.caption("Data sumber: Open-Meteo & BPS")
