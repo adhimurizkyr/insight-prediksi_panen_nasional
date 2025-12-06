@@ -5,10 +5,11 @@ import joblib
 import os 
 import numpy as np
 import plotly.express as px
+import sklearn 
 
 # Konfigurasi Halaman (Harus di awal)
 st.set_page_config(
-    page_title="InSight Padi Dashboard", # Nama page title di browser
+    page_title="InSight Padi Dashboard", 
     layout="wide", 
     initial_sidebar_state="expanded"
 )
@@ -40,9 +41,11 @@ PROVINCE_COORDS = {
     'Papua Pegunungan': [-4.2016, 139.0]
 }
 
+# Path ke file
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "panen_predictor_model.joblib")
 DATA_PATH = os.path.join(BASE_DIR, "etl_panen_cuaca_2024.csv")
+ACCURACY_PATH = os.path.join(BASE_DIR, "model_accuracy.txt") # <-- PATH BARU
 
 
 # ==============================
@@ -54,6 +57,7 @@ def load_data():
     """Memuat DataFrame yang sudah diproses dari ETL."""
     try:
         df = pd.read_csv(DATA_PATH)
+        df['month'] = df['month'].astype(str)
         return df
     except FileNotFoundError:
         st.error(f"File data tidak ditemukan: {DATA_PATH}. Pastikan Anda sudah menjalankan etl.py")
@@ -69,8 +73,21 @@ def load_model():
         st.error(f"Model prediksi tidak ditemukan: {MODEL_PATH}. Pastikan Anda sudah menjalankan etl.py dan menyimpan model.")
         return None
         
+@st.cache_data
+def load_accuracy():
+    """Memuat R2 score dari file model_accuracy.txt."""
+    try:
+        with open(ACCURACY_PATH, 'r') as f:
+            r2_score = float(f.read().strip())
+            return r2_score
+    except FileNotFoundError:
+        st.sidebar.error("model_accuracy.txt tidak ditemukan.")
+        return None
+
+        
 df = load_data()
 model = load_model()
+r2_score = load_accuracy() # <-- MEMUAT NILAI AKURASI
 
 if df.empty:
     st.stop()
@@ -84,34 +101,42 @@ def create_prediction_input(df_all, selected_province, selected_month):
     Membuat input fitur yang benar untuk prediksi, termasuk lagging dan one-hot encoding.
     """
     
-    df_prov = df_all[df_all["province"] == selected_province].copy()
-    target_month_index = df_prov[df_prov["month"] == selected_month].index
+    df_target = df_all[
+        (df_all["province"] == selected_province) & 
+        (df_all["month"] == selected_month)
+    ].copy()
     
-    if target_month_index.empty:
+    if df_target.empty:
         return None, None
     
-    current_idx = target_month_index[0]
-
+    target_row = df_target.iloc[0] 
+    
+    # 1. Tentukan fitur cuaca lagging
     all_weather_lags = []
     for col in WEATHER_COLS:
         for lag in range(1, 4): 
             all_weather_lags.append(f'{col}_lag_{lag}')
             
-    pred_input = df_prov.loc[[current_idx], all_weather_lags]
+    pred_input_series = target_row[all_weather_lags]
     
-    if pred_input.isna().any(axis=1).values[0]:
+    if pred_input_series.isna().any():
         return None, None
         
-    actual_production = df_prov.loc[current_idx, 'produksi']
+    pred_input_df = pred_input_series.to_frame().T.reset_index(drop=True)
+    
+    # 2. Ambil nilai produksi aktual
+    actual_production = target_row['produksi'] 
         
+    # 3. Buat One-Hot Encoding (OHE) untuk provinsi
     all_provinces = sorted(df_all["province"].unique())
     ohe_cols = [f'province_{p}' for p in all_provinces]
     
     ohe_input = pd.DataFrame(0.0, index=[0], columns=ohe_cols)
     ohe_input.loc[0, f'province_{selected_province}'] = 1.0
     
+    # 4. Gabungkan dan Reindex
     final_input_data = pd.concat([
-        pred_input.reset_index(drop=True), 
+        pred_input_df, 
         ohe_input.reset_index(drop=True)
     ], axis=1)
 
@@ -122,14 +147,12 @@ def create_prediction_input(df_all, selected_province, selected_month):
     return final_input, actual_production
 
 
-# FUNGSI BARU: PREDIKSI SEMUA PROVINSI
 def predict_all_provinces(df_all, model, selected_month):
     """Melakukan prediksi untuk semua provinsi pada bulan yang dipilih."""
     results = []
     all_provinces = sorted(df_all["province"].unique())
 
     for p in all_provinces:
-        # Gunakan fungsi yang sudah ada untuk mendapatkan input per provinsi
         final_input, actual = create_prediction_input(df_all, p, selected_month)
         
         if final_input is not None and model is not None:
@@ -143,7 +166,6 @@ def predict_all_provinces(df_all, model, selected_month):
                     'error': pred - actual
                 })
             except Exception:
-                # Lewati jika ada error prediksi (misal: data lag tidak lengkap)
                 continue
     
     return pd.DataFrame(results)
@@ -153,17 +175,31 @@ def predict_all_provinces(df_all, model, selected_month):
 # STREAMLIT UI START
 # ==============================
 
-# JUDUL UTAMA
 st.title("Integrasi Data Cuaca dan Pertanian untuk Prediksi Panen Nasional") 
 st.subheader("Visualisasi Data Historis dan Prediksi Produksi Padi")
 
-# --- Seleksi Provinsi dan Bulan (Pindah ke Sidebar) ---
+# --- Sidebar: Akurasi Model & Filter ---
+
+st.sidebar.title("🤖 Status Model")
+
+# METRIK AKURASI: Ditempatkan di sidebar
+if r2_score is not None:
+    st.sidebar.metric(
+        label="Akurasi Model (R² Score)",
+        value=f"{r2_score:.2f}",
+        help="Angka ini menunjukkan persentase variasi Produksi Padi yang dapat dijelaskan oleh fitur-fitur model (cuaca lagging dan lokasi)."
+    )
+else:
+    st.sidebar.info("Akurasi model belum tersedia.")
+
+
+st.sidebar.markdown("---")
+st.sidebar.title("⚙️ Pengaturan Filter")
 provinsi_list = ["Semua Provinsi"] + sorted(df["province"].unique())
 bulan_list_with_all = ["Semua Bulan (Tren)"] + sorted(df["month"].unique())
 
-st.sidebar.title("⚙️ Pengaturan Filter")
-provinsi = st.sidebar.selectbox("Pilih Provinsi", provinsi_list)
-bulan = st.sidebar.selectbox("Pilih Bulan", bulan_list_with_all)
+provinsi = st.sidebar.selectbox("Pilih Provinsi", provinsi_list, key="selected_prov")
+bulan = st.sidebar.selectbox("Pilih Bulan", bulan_list_with_all, key="selected_month")
 
 # Info mode di sidebar
 if provinsi == "Semua Provinsi" and bulan != "Semua Bulan (Tren)":
@@ -180,18 +216,33 @@ st.markdown("---")
 is_single_province = provinsi != "Semua Provinsi"
 is_single_month = bulan != "Semua Bulan (Tren)"
 
+df_filtered = pd.DataFrame() 
+
 if is_single_province and is_single_month:
-    # Case 1: Single Province, Single Month (Standard for Prediction/Detail)
     df_filtered = df[(df["province"] == provinsi) & (df["month"] == bulan)]
 elif is_single_province and not is_single_month:
-    # Case 2: Single Province, All Months (Used for Trend Chart)
     df_filtered = df[df["province"] == provinsi]
 elif not is_single_province and is_single_month:
-    # Case 3: All Provinces, Single Month (Used for Map/National Ranking/All Prediction)
     df_filtered = df[df["month"] == bulan]
+
+
+# ==============================
+# DEBUGGING SECTION (OPSIONAL: BISA DIHAPUS SETELAH LAPORAN SELESAI)
+# ==============================
+
+st.sidebar.markdown("---")
+st.sidebar.subheader("🔎 Debug Filter Check")
+if is_single_province and is_single_month:
+    if not df_filtered.empty:
+        debug_produksi = df_filtered['produksi'].iloc[0]
+        st.sidebar.info(f"Prov: {provinsi} | Bulan: {bulan}")
+        st.sidebar.success(f"Produksi (Ton): {debug_produksi:,.2f}")
+    else:
+        st.sidebar.error("Filter Gagal: df_filtered kosong.")
 else:
-    # Case 4: All Provinces, All Months (Too big)
-    df_filtered = pd.DataFrame() 
+    st.sidebar.info("Pilih Provinsi & Bulan untuk Debug Detil.")
+
+st.markdown("---")
 
 
 # ==============================
@@ -200,24 +251,19 @@ else:
 
 st.header("🌍 Peta Sebaran Produksi Padi (Titik)")
 
-# 1. Tentukan data peta berdasarkan seleksi
 if not is_single_month:
     st.warning("Peta titik hanya dapat divisualisasikan untuk satu bulan tertentu. Menampilkan bulan terakhir.")
-    # Gunakan data bulan terakhir yang tersedia untuk konteks visual jika mode tren dipilih
     latest_month = sorted(df['month'].unique())[-1]
     df_map_data = df[df['month'] == latest_month].copy()
     map_title = f"Produksi Padi (ton) per Provinsi Bulan Terakhir ({latest_month})"
 elif is_single_province:
-    # Sesuai permintaan: Hanya tampilkan provinsi yang dipilih di peta
     df_map_data = df[(df["month"] == bulan) & (df["province"] == provinsi)].copy()
     map_title = f"Produksi Padi (ton) di {provinsi} Bulan {bulan}"
 else:
-    # Tampilkan semua provinsi untuk bulan yang dipilih (Mode Nasional)
     df_map_data = df[df["month"] == bulan].copy()
     map_title = f"Produksi Padi (ton) per Provinsi Bulan {bulan} (Visualisasi Titik)"
 
 
-# 2. Tambahkan koordinat ke data peta
 df_map_data['latitude'] = df_map_data['province'].apply(lambda x: PROVINCE_COORDS.get(x, [None, None])[0])
 df_map_data['longitude'] = df_map_data['province'].apply(lambda x: PROVINCE_COORDS.get(x, [None, None])[1])
 df_map_data.dropna(subset=['latitude', 'longitude'], inplace=True)
@@ -242,7 +288,6 @@ else:
             template="plotly_dark" 
         )
         
-        # Atur batas geografis ke Indonesia/Asia Tenggara
         fig_map.update_geos(
             center={"lat": -2.0, "lon": 118.0}, 
             lataxis_range=[-10, 6], 
@@ -251,7 +296,6 @@ else:
             countrycolor="Gray"
         )
 
-        # Kustomisasi colorbar
         fig_map.update_layout(
             margin={"r":0,"t":40,"l":0,"b":0},
             coloraxis_colorbar=dict(
@@ -274,7 +318,6 @@ st.markdown("---")
 
 # ==============================
 # (1) PREDIKSI PRODUKSI PANEN
-# Logika: Hanya tampil jika Single Month
 # ==============================
 
 if model is None:
@@ -283,55 +326,52 @@ elif not is_single_month:
     st.header("🤖 Prediksi Produksi Padi")
     st.info("Prediksi hanya dapat dilakukan untuk satu bulan tertentu.")
 elif is_single_province:
-    # --- Case A: Single Province, Single Month (UI Improvement: Use Container) ---
+    # --- Case A: Single Province, Single Month ---
     st.header(f"🤖 Prediksi Produksi Padi ({provinsi} - {bulan})")
 
-    if not df_filtered.empty:
+    pred_input_df, actual_production = create_prediction_input(df, provinsi, bulan)
         
-        pred_input_df, actual_production = create_prediction_input(df, provinsi, bulan)
-        
-        if pred_input_df is not None:
+    if pred_input_df is not None:
             
-            try:
-                pred = model.predict(pred_input_df)[0]
-            except ValueError as e:
-                st.error(f"Error saat prediksi: {e}")
-                st.stop()
+        try:
+            pred = model.predict(pred_input_df)[0]
+        except ValueError as e:
+            st.error(f"Error saat prediksi: {e}")
+            st.stop()
                 
-            delta_val = pred - actual_production
+        delta_val = pred - actual_production
             
-            # Group metrics inside a bordered container
-            with st.container(border=True):
-                st.markdown(f"**Ringkasan Prediksi {provinsi} pada {bulan}**")
-                pred_col1, pred_col2, pred_col3 = st.columns(3)
+        with st.container(border=True):
+            st.markdown(f"**Ringkasan Prediksi {provinsi} pada {bulan}**")
+            pred_col1, pred_col2, pred_col3 = st.columns(3)
                 
-                with pred_col1:
-                    st.metric(
-                        label=f"Produksi Aktual ({bulan})",
-                        value=f"{actual_production:,.0f} ton", 
-                        help="Data produksi yang tercatat dari BPS (data target)."
-                    )
+            with pred_col1:
+                st.metric(
+                    label=f"Produksi Aktual ({bulan})",
+                    value=f"{actual_production:,.0f} ton", 
+                    help="Data produksi yang tercatat dari BPS (data target)."
+                )
                 
-                with pred_col2:
-                    st.metric(
-                        label=f"Prediksi Model ({bulan})",
-                        value=f"{pred:,.0f} ton", 
-                        help="Prediksi model Random Forest menggunakan cuaca 3 bulan sebelumnya."
-                    )
+            with pred_col2:
+                st.metric(
+                    label=f"Prediksi Model ({bulan})",
+                    value=f"{pred:,.0f} ton", 
+                    help="Prediksi model Random Forest menggunakan cuaca 3 bulan sebelumnya."
+                )
                     
-                with pred_col3:
-                    st.metric(
-                        label="Perbedaan (Delta)",
-                        value=f"{delta_val:,.0f} ton",
-                        delta=f"{delta_val:,.0f} ton",
-                        delta_color="off", 
-                        help="Selisih antara Prediksi dan Aktual."
-                    )
-        else:
-            st.warning(f"Data *lagging* cuaca untuk {bulan} tidak tersedia.")
+            with pred_col3:
+                st.metric(
+                    label="Perbedaan (Delta)",
+                    value=f"{delta_val:,.0f} ton",
+                    delta=f"{delta_val:,.0f} ton",
+                    delta_color="off", 
+                    help="Selisih antara Prediksi dan Aktual."
+                )
+    else:
+        st.warning(f"Data *lagging* cuaca untuk {bulan} tidak tersedia atau data cuaca target bulan ini kosong.")
             
 else: 
-    # --- Case B: All Provinces, Single Month (Fixed Visualization Logic: Grouped Bars) ---
+    # --- Case B: All Provinces, Single Month (National Prediction) ---
     st.header(f"🤖 Hasil Prediksi Nasional Bulan {bulan}")
     
     df_prediction_results = predict_all_provinces(df, model, bulan)
@@ -339,25 +379,17 @@ else:
     if not df_prediction_results.empty:
         st.subheader(f"Perbandingan Aktual vs Prediksi Produksi Padi Bulan {bulan}")
         
-        # Prepare data for Altair chart (melt for easy comparison)
         df_chart = df_prediction_results.melt(
             id_vars='province', 
             value_vars=['produksi_aktual', 'produksi_prediksi'],
             var_name='Tipe Data',
             value_name='Produksi (ton)'
         ).sort_values(by='Produksi (ton)', ascending=False)
-
         
-        # Visualisasi Grouped Bar Chart (Consistent Display)
         chart = alt.Chart(df_chart).mark_bar().encode(
-            # X-axis (Value)
             x=alt.X('Produksi (ton)', axis=alt.Axis(format=',.0f'), title="Produksi (ton)"), 
-            # Y-axis (Category)
             y=alt.Y('province', title='Provinsi', sort='-x'), 
-            
-            # Grouping Field: PENTING UNTUK DIPISAH KOLOM
             column=alt.Column('Tipe Data', header=alt.Header(titleOrient="bottom", labelOrient="bottom")),
-            
             color=alt.Color('Tipe Data', scale=alt.Scale(range=['#5a8c54', '#4c78a8'])),
             tooltip=['province', alt.Tooltip('Produksi (ton)', format=',.0f'), 'Tipe Data']
         ).properties(
@@ -366,7 +398,6 @@ else:
 
         st.altair_chart(chart, use_container_width=True)
         
-        # Display aggregated results
         total_aktual = df_prediction_results['produksi_aktual'].sum()
         total_prediksi = df_prediction_results['produksi_prediksi'].sum()
         
@@ -375,9 +406,8 @@ else:
             st.metric("Total Produksi Aktual Nasional", f"{total_aktual:,.0f} ton")
         with col_total2:
             st.metric("Total Prediksi Nasional", f"{total_prediksi:,.0f} ton", 
-                      delta=f"{total_prediksi - total_aktual:,.0f} ton")
+                        delta=f"{total_prediksi - total_aktual:,.0f} ton")
             
-        # Optionally display a detailed table
         with st.expander("Lihat Data Prediksi Detail Per Provinsi"):
             st.dataframe(
                 df_prediction_results[['province', 'produksi_aktual', 'produksi_prediksi', 'error']]
@@ -467,7 +497,7 @@ elif is_single_province and is_single_month:
                 tooltip=["Parameter", alt.Tooltip("Nilai", format=",.1f")],
                 color=alt.condition(
                     alt.datum.Parameter == "Curah Hujan (mm)", 
-                    alt.value("orange"),  
+                    alt.value("orange"), 
                     alt.value("#4c78a8") 
                 )
             ).properties(

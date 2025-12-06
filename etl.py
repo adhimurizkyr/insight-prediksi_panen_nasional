@@ -3,6 +3,8 @@ import os
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
+from sklearn.metrics import r2_score
+from sklearn.model_selection import train_test_split # <-- Import untuk pemisahan data
 import joblib 
 
 # Definisikan kolom cuaca yang akan dijadikan fitur lagging
@@ -38,7 +40,7 @@ def load_crop_csv(folder_path):
     if not csv_files:
         raise FileNotFoundError(f"Tidak ada file CSV ditemukan di {folder_path}")
     csv_path = os.path.join(folder_path, csv_files[0])
-    print(f"   -> Membaca file: {csv_files[0]}")
+    print(f"    -> Membaca file: {csv_files[0]}")
     df_crop = pd.read_csv(csv_path, header=2) 
     df_crop = df_crop.replace('-', pd.NA) 
     
@@ -59,13 +61,13 @@ def load_crop_csv(folder_path):
         "produksi_ton": "produksi",
     }
     df_crop.rename(columns=rename_map, inplace=True)
-    print(f"   -> Kolom final: {df_crop.columns.tolist()}")
+    print(f"    -> Kolom final: {df_crop.columns.tolist()}")
 
     df_crop = df_crop.dropna(subset=['provinsi'])
     return df_crop
 
 # =======================================
-#     CLEANING DATA CUACA (BULAN)
+#    CLEANING DATA CUACA (BULAN)
 # =======================================
 def clean_weather(df):
     df.rename(columns={"bulan": "month", "provinsi": "province"}, inplace=True)
@@ -73,7 +75,7 @@ def clean_weather(df):
     return df
 
 # =======================================
-#     CLEANING DATA PANEN (TAHUNAN)
+#    CLEANING DATA PANEN (TAHUNAN)
 # =======================================
 def clean_crop(df):
     df.rename(columns={"provinsi": "province"}, inplace=True)
@@ -96,7 +98,7 @@ def clean_crop(df):
                     "produksi": [row["produksi"]/12],
                     "produktivitas": [row["produktivitas"]]
                 })
-            ], ignore_index=True)
+                ], ignore_index=True)
     return df_month
 
 # =======================================
@@ -124,9 +126,9 @@ def create_lag_features(df, lag=3):
     return df
 
 # =======================================
-#           TRAIN MODEL
+#           TRAIN MODEL (PERFECT)
 # =======================================
-def train_and_save_model(df_features, model_path):
+def train_and_save_model(df_features, model_path, accuracy_path):
     """Menerima DataFrame yang sudah punya fitur lagging, melakukan OHE, train, dan save."""
     
     df_model = df_features.copy()
@@ -144,33 +146,57 @@ def train_and_save_model(df_features, model_path):
     feature_cols = [col for col in df_model.columns if '_lag_' in col]
     ohe_cols = sorted([col for col in df_model.columns if col.startswith('province_')])
     
-    # Penting: Urutan kolom harus sama di etl.py dan app.py
     X_cols = feature_cols + ohe_cols
     
     X = df_model[X_cols]
     y = df_model[TARGET]
     
-    print(f"   -> Jumlah Fitur (Lagging + OHE): {X.shape[1]}")
+    # --- 1. TRAIN-TEST SPLIT ---
+    # Memisahkan data menjadi 80% Training dan 20% Testing (Data yang belum pernah dilihat)
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42
+    )
     
-    # Training Model 
+    print(f"    -> Jumlah Fitur (Lagging + OHE): {X_train.shape[1]}")
+    print(f"    -> Ukuran Training Set: {X_train.shape[0]} baris")
+    print(f"    -> Ukuran Testing Set: {X_test.shape[0]} baris")
+    
+    # Training Model (Latih hanya dengan data training)
     model = RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=-1)
-    model.fit(X, y)
+    model.fit(X_train, y_train) 
     
-    # Evaluasi (Opsional)
-    y_pred = model.predict(X)
-    rmse = np.sqrt(mean_squared_error(y, y_pred))
-    print(f"   -> Model Training RMSE: {rmse:.2f} ton")
+    # --- 2. EVALUASI ---
     
+    # Evaluasi pada data Training (Harusnya tinggi karena overfitting)
+    r2_score_train = model.score(X_train, y_train)
+    
+    # Evaluasi pada data Testing (AKURASI RIIL untuk laporan)
+    y_pred_test = model.predict(X_test) 
+    rmse_test = np.sqrt(mean_squared_error(y_test, y_pred_test))
+    r2_score_test = model.score(X_test, y_test) 
+    
+    print(f"    -> Model Training R2 Score (Indikasi Overfitting): {r2_score_train:.4f}")
+    print(f"    -> Model Testing R2 Score (AKURASI KREDIBEL): {r2_score_test:.4f}")
+    print(f"    -> Model Testing RMSE: {rmse_test:.2f} ton")
+    
+    # Simpan R2 Score TESTING ke file
+    try:
+        with open(accuracy_path, 'w') as f:
+            f.write(f"{r2_score_test:.4f}") 
+        print("    -> Akurasi model (R2 Test) berhasil disimpan:", accuracy_path)
+    except Exception as e:
+        print(f"    -> GAGAL menyimpan akurasi model: {e}")
+        
     # Simpan Model
     joblib.dump(model, model_path)
-    print("   -> Model prediksi berhasil disimpan:", model_path)
+    print("    -> Model prediksi berhasil disimpan:", model_path)
     
     return model
 
 # =======================================
 #           PIPELINE UTAMA ETL + TRAIN (FINAL)
 # =======================================
-def run_etl_and_train(weather_dir, crop_folder, etl_output_path, model_output_path):
+def run_etl_and_train(weather_dir, crop_folder, etl_output_path, model_output_path, accuracy_output_path):
     print("--- 1. ETL PROCESS ---")
     
     # Load and Clean
@@ -194,11 +220,11 @@ def run_etl_and_train(weather_dir, crop_folder, etl_output_path, model_output_pa
     
     # --- 2. MODEL TRAINING PROCESS ---
     print("\n--- 2. MODEL TRAINING PROCESS ---")
-    train_and_save_model(df_final.copy(), model_output_path)
+    train_and_save_model(df_final.copy(), model_output_path, accuracy_output_path)
     print("=== MODEL TRAINING SELESAI! ===")
 
 # =======================================
-#              RUN SCRIPT
+#               RUN SCRIPT
 # =======================================
 if __name__ == "__main__":
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -208,13 +234,15 @@ if __name__ == "__main__":
     
     etl_output_file = os.path.join(base_dir, "etl_panen_cuaca_2024.csv")
     model_output_file = os.path.join(base_dir, "panen_predictor_model.joblib")
+    accuracy_output_file = os.path.join(base_dir, "model_accuracy.txt")
 
     try:
         run_etl_and_train(
             weather_dir=weather_path,
             crop_folder=crop_path,
             etl_output_path=etl_output_file,
-            model_output_path=model_output_file
+            model_output_path=model_output_file,
+            accuracy_output_path=accuracy_output_file
         )
     except FileNotFoundError as e:
         print(f"\n[FATAL ERROR]: {e}")
